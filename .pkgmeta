@@ -1,0 +1,6 @@
+package-as: AckisRecipeList_Inscription
+
+enable-nolib-creation: yes
+
+required-dependencies:
+    - arl
