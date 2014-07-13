@@ -4581,7 +4581,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104053, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddMobDrop(73703)
+	recipe:AddWorldDrop(Z.PANDARIA)
 
 	-- Glyph of Impaling Throws -- 148264
 	recipe = AddRecipe(148264, V.MOP, Q.UNCOMMON)
