@@ -59,14 +59,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1, F.HEALER, F.CASTER)
 	recipe:AddCustom("DEFAULT_RECIPE")
 
-	-- Glyph of Entangling Roots -- 48121
-	recipe = AddRecipe(48121, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(100, 100, 105, 110, 115)
-	recipe:SetCraftedItem(40924, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Mysterious Tarot -- 48247
 	recipe = AddRecipe(48247, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(85, 85, 95, 100, 105)
@@ -283,42 +275,10 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 47384, 47396, 47400, 47418, 47419, 47420, 47431, 48619, 53415, 56065, 57620, 62327, 64691, 65043, 66355)
 
-	-- Glyph of Frenzied Regeneration -- 56943
-	recipe = AddRecipe(56943, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 355, 360, 365)
-	recipe:SetCraftedItem(40896, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Omens -- 56944
-	recipe = AddRecipe(56944, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(40899, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Healing Touch -- 56945
-	recipe = AddRecipe(56945, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(115, 115, 120, 125, 130)
-	recipe:SetCraftedItem(40914, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Hurricane -- 56946
 	recipe = AddRecipe(56946, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
 	recipe:SetCraftedItem(40920, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Innervate -- 56947
-	recipe = AddRecipe(56947, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(40908, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
@@ -331,13 +291,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.DRUID)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Efflorescence -- 56949
-	recipe = AddRecipe(56949, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(40915, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.DRUID)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of the Stag -- 56950
 	recipe = AddRecipe(56950, V.WOTLK, Q.COMMON)
@@ -347,14 +300,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Savagery -- 56951
-	recipe = AddRecipe(56951, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(130, 130, 135, 140, 145)
-	recipe:SetCraftedItem(40923, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Pounce -- 56952
 	recipe = AddRecipe(56952, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(310, 310, 315, 320, 325)
@@ -363,14 +308,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Rebirth -- 56953
-	recipe = AddRecipe(56953, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(170, 170, 175, 180, 185)
-	recipe:SetCraftedItem(40909, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Regrowth -- 56954
 	recipe = AddRecipe(56954, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
@@ -378,30 +315,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.DRUID)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Rejuvenation -- 56955
-	recipe = AddRecipe(56955, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(80, 80, 90, 100, 110)
-	recipe:SetCraftedItem(40913, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Prowl -- 56956
-	recipe = AddRecipe(56956, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(200, 200, 205, 210, 215)
-	recipe:SetCraftedItem(40902, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Shred -- 56957
-	recipe = AddRecipe(56957, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(260, 260, 265, 270, 275)
-	recipe:SetCraftedItem(40901, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Skull Bash -- 56958
 	recipe = AddRecipe(56958, V.WOTLK, Q.COMMON)
@@ -419,30 +332,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.DRUID)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Stampede -- 56960
-	recipe = AddRecipe(56960, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(40906, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.DRUID)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Maul -- 56961
-	recipe = AddRecipe(56961, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(90, 90, 100, 110, 120)
-	recipe:SetCraftedItem(40897, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Nature's Grasp -- 56963
-	recipe = AddRecipe(56963, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(85, 85, 95, 105, 115)
-	recipe:SetCraftedItem(40922, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Stars -- 56965
 	recipe = AddRecipe(56965, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(310, 310, 320, 325, 330)
@@ -450,14 +339,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
-
-	-- Glyph of Loose Mana -- 56971
-	recipe = AddRecipe(56971, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(115, 115, 120, 125, 130)
-	recipe:SetCraftedItem(42735, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Arcane Explosion -- 56972
 	recipe = AddRecipe(56972, V.WOTLK, Q.COMMON)
@@ -467,22 +348,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Blink -- 56973
-	recipe = AddRecipe(56973, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(130, 130, 135, 140, 145)
-	recipe:SetCraftedItem(42737, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Evocation -- 56974
-	recipe = AddRecipe(56974, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(155, 155, 160, 165, 170)
-	recipe:SetCraftedItem(42738, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Combustion -- 56975
 	recipe = AddRecipe(56975, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
@@ -490,14 +355,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Frost Nova -- 56976
-	recipe = AddRecipe(56976, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(80, 80, 90, 100, 110)
-	recipe:SetCraftedItem(42741, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Momentum -- 56978
 	recipe = AddRecipe(56978, V.WOTLK, Q.COMMON)
@@ -539,14 +396,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Mana Gem -- 56984
-	recipe = AddRecipe(56984, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(325, 325, 330, 335, 340)
-	recipe:SetCraftedItem(42749, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Crittermorph -- 56986
 	recipe = AddRecipe(56986, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
@@ -554,14 +403,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Polymorph -- 56987
-	recipe = AddRecipe(56987, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(400, 400, 400, 400, 405)
-	recipe:SetCraftedItem(42752, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Icy Veins -- 56988
 	recipe = AddRecipe(56988, V.WOTLK, Q.COMMON)
@@ -607,22 +448,6 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(56995, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(100, 100, 105, 110, 115)
 	recipe:SetCraftedItem(42898, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Liberation -- 56996
-	recipe = AddRecipe(56996, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42899, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Mending -- 56997
-	recipe = AddRecipe(56997, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(115, 115, 120, 125, 130)
-	recipe:SetCraftedItem(42900, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
@@ -675,14 +500,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Misdirection -- 57004
-	recipe = AddRecipe(57004, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(80, 80, 90, 100, 110)
-	recipe:SetCraftedItem(42907, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Explosive Trap -- 57005
 	recipe = AddRecipe(57005, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(130, 130, 135, 140, 145)
@@ -690,14 +507,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Animal Bond -- 57006
-	recipe = AddRecipe(57006, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 380, 385, 390)
-	recipe:SetCraftedItem(42909, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of No Escape -- 57007
 	recipe = AddRecipe(57007, V.WOTLK, Q.COMMON)
@@ -707,14 +516,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Pathfinding -- 57008
-	recipe = AddRecipe(57008, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(315, 315, 320, 325, 330)
-	recipe:SetCraftedItem(42911, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Tame Beast -- 57009
 	recipe = AddRecipe(57009, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(90, 90, 100, 110, 120)
@@ -722,22 +523,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Snake Trap -- 57010
-	recipe = AddRecipe(57010, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42913, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Aimed Shot -- 57011
-	recipe = AddRecipe(57011, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42914, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Mend Pet -- 57012
 	recipe = AddRecipe(57012, V.WOTLK, Q.COMMON)
@@ -763,14 +548,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Final Wrath -- 57020
-	recipe = AddRecipe(57020, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(180, 180, 185, 190, 195)
-	recipe:SetCraftedItem(41104, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of the Harsh Word -- 57021
 	recipe = AddRecipe(57021, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
@@ -795,30 +572,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Avenging Wrath -- 57024
-	recipe = AddRecipe(57024, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(230, 230, 235, 240, 245)
-	recipe:SetCraftedItem(41098, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Blinding Light -- 57025
-	recipe = AddRecipe(57025, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(265, 265, 270, 275, 280)
-	recipe:SetCraftedItem(41103, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Word of Glory -- 57026
-	recipe = AddRecipe(57026, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(300, 300, 305, 310, 315)
-	recipe:SetCraftedItem(41105, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PALADIN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Holy Wrath -- 57027
 	recipe = AddRecipe(57027, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(90, 90, 100, 110, 120)
@@ -827,28 +580,12 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Templar's Verdict -- 57028
-	recipe = AddRecipe(57028, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(41097, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Illumination -- 57029
 	recipe = AddRecipe(57029, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(105, 105, 110, 115, 120)
 	recipe:SetCraftedItem(41106, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PALADIN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Double Jeopardy -- 57030
-	recipe = AddRecipe(57030, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(120, 120, 125, 130, 135)
-	recipe:SetCraftedItem(41092, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Divinity -- 57031
@@ -883,14 +620,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Light of Dawn -- 57035
-	recipe = AddRecipe(57035, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(41109, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Turn Evil -- 57036
 	recipe = AddRecipe(57036, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(375, 375, 380, 385, 390)
@@ -906,14 +635,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Ambush -- 57113
-	recipe = AddRecipe(57113, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(340, 340, 345, 350, 355)
-	recipe:SetCraftedItem(42955, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Decoy -- 57114
 	recipe = AddRecipe(57114, V.WOTLK, Q.COMMON)
@@ -931,22 +652,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Sharp Knives -- 57116
-	recipe = AddRecipe(57116, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42958, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Recuperate -- 57117
-	recipe = AddRecipe(57117, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42959, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Evasion -- 57119
 	recipe = AddRecipe(57119, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(95, 95, 105, 115, 125)
@@ -959,14 +664,6 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(57120, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(105, 105, 110, 115, 120)
 	recipe:SetCraftedItem(42961, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Expose Armor -- 57121
-	recipe = AddRecipe(57121, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(120, 120, 125, 130, 135)
-	recipe:SetCraftedItem(42962, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
@@ -1019,14 +716,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Cheap Shot -- 57128
-	recipe = AddRecipe(57128, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42969, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Hemorraghing Veins -- 57129
 	recipe = AddRecipe(57129, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(185, 185, 190, 195, 200)
@@ -1042,14 +731,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Redirect -- 57131
-	recipe = AddRecipe(57131, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(210, 210, 215, 220, 225)
-	recipe:SetCraftedItem(42972, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Shiv -- 57132
 	recipe = AddRecipe(57132, V.WOTLK, Q.COMMON)
@@ -1091,34 +772,10 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Heavy Repercussions -- 57155
-	recipe = AddRecipe(57155, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(43415, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Bloodthirst -- 57156
-	recipe = AddRecipe(57156, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(285, 285, 290, 295, 300)
-	recipe:SetCraftedItem(43416, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Rude Interruption -- 57157
 	recipe = AddRecipe(57157, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(125, 125, 130, 135, 140)
 	recipe:SetCraftedItem(43417, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Gag Order -- 57158
-	recipe = AddRecipe(57158, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(95, 95, 105, 115, 125)
-	recipe:SetCraftedItem(43418, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
@@ -1147,22 +804,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Enraged Speed -- 57162
-	recipe = AddRecipe(57162, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(85, 85, 95, 105, 115)
-	recipe:SetCraftedItem(43413, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Hamstring -- 57163
-	recipe = AddRecipe(57163, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(110, 110, 115, 120, 125)
-	recipe:SetCraftedItem(43423, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Resonating Power -- 57164
 	recipe = AddRecipe(57164, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
@@ -1171,22 +812,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Hold the Line -- 57165
-	recipe = AddRecipe(57165, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(190, 190, 195, 200, 205)
-	recipe:SetCraftedItem(43424, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Hoarse Voice -- 57167
-	recipe = AddRecipe(57167, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(140, 140, 145, 150, 155)
-	recipe:SetCraftedItem(43427, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.TANK, F.WARRIOR)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Sweeping Strikes -- 57168
 	recipe = AddRecipe(57168, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(320, 320, 325, 330, 335)
@@ -1194,14 +819,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Victory Rush -- 57170
-	recipe = AddRecipe(57170, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(43431, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Raging Wind -- 57172
 	recipe = AddRecipe(57172, V.WOTLK, Q.COMMON)
@@ -1227,42 +844,10 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Fade -- 57184
-	recipe = AddRecipe(57184, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(105, 105, 110, 115, 120)
-	recipe:SetCraftedItem(42398, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Fear Ward -- 57185
 	recipe = AddRecipe(57185, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(270, 270, 275, 280, 285)
 	recipe:SetCraftedItem(42399, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Inner Sanctum -- 57186
-	recipe = AddRecipe(57186, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(120, 120, 125, 130, 135)
-	recipe:SetCraftedItem(42400, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PRIEST)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Holy Nova -- 57187
-	recipe = AddRecipe(57187, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(315, 315, 320, 325, 330)
-	recipe:SetCraftedItem(42401, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PRIEST)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Inner Fire -- 57188
-	recipe = AddRecipe(57188, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(135, 135, 140, 145, 150)
-	recipe:SetCraftedItem(42402, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
@@ -1290,14 +875,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Holy Fire -- 57192
-	recipe = AddRecipe(57192, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 355, 360, 365)
-	recipe:SetCraftedItem(42406, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.PRIEST)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Weakened Soul -- 57193
 	recipe = AddRecipe(57193, V.WOTLK, Q.COMMON)
@@ -1331,14 +908,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Renew -- 57197
-	recipe = AddRecipe(57197, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(160, 160, 165, 170, 175)
-	recipe:SetCraftedItem(42411, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PRIEST)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Scourge Imprisonment -- 57198
 	recipe = AddRecipe(57198, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(375, 375, 380, 385, 390)
@@ -1347,26 +916,10 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Mind Blast -- 57199
-	recipe = AddRecipe(57199, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42414, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Dispel Magic -- 57200
 	recipe = AddRecipe(57200, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(180, 180, 185, 190, 195)
 	recipe:SetCraftedItem(42415, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.PRIEST)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Smite -- 57201
-	recipe = AddRecipe(57201, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(210, 210, 215, 220, 225)
-	recipe:SetCraftedItem(42416, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.PRIEST)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
@@ -1383,14 +936,6 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(57207, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
 	recipe:SetCraftedItem(43533, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Unholy Frenzy -- 57208
-	recipe = AddRecipe(57208, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(43534, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
@@ -1419,22 +964,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Death Grip -- 57213
-	recipe = AddRecipe(57213, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(285, 285, 290, 295, 300)
-	recipe:SetCraftedItem(43541, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Death and Decay -- 57214
-	recipe = AddRecipe(57214, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(43542, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Death's Embrace -- 57215
 	recipe = AddRecipe(57215, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(300, 300, 305, 310, 315)
@@ -1442,14 +971,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
-
-	-- Glyph of Shifting Presences -- 57216
-	recipe = AddRecipe(57216, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(270, 270, 275, 280, 285)
-	recipe:SetCraftedItem(43543, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Horn of Winter -- 57217
 	recipe = AddRecipe(57217, V.WOTLK, Q.COMMON)
@@ -1611,26 +1132,10 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Flame Shock -- 57239
-	recipe = AddRecipe(57239, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(85, 85, 95, 105, 115)
-	recipe:SetCraftedItem(41531, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Wind Shear -- 57240
 	recipe = AddRecipe(57240, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(125, 125, 130, 135, 140)
 	recipe:SetCraftedItem(41532, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Frost Shock -- 57241
-	recipe = AddRecipe(57241, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(185, 185, 190, 195, 200)
-	recipe:SetCraftedItem(41547, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
@@ -1643,28 +1148,12 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.SHAMAN)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Healing Wave -- 57243
-	recipe = AddRecipe(57243, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(41534, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.SHAMAN)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Totemic Recall -- 57244
 	recipe = AddRecipe(57244, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(235, 235, 240, 245, 250)
 	recipe:SetCraftedItem(41535, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.SHAMAN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Telluric Currents -- 57245
-	recipe = AddRecipe(57245, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(140, 140, 145, 150, 155)
-	recipe:SetCraftedItem(41536, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.SHAMAN)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of the Lakestrider -- 57246
@@ -1682,14 +1171,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Spiritwalker's Grace -- 57248
-	recipe = AddRecipe(57248, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 380, 385, 390)
-	recipe:SetCraftedItem(41539, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Lava Lash -- 57249
 	recipe = AddRecipe(57249, V.WOTLK, Q.COMMON)
@@ -1747,14 +1228,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Siphon Life -- 57259
-	recipe = AddRecipe(57259, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(85, 85, 95, 105, 115)
-	recipe:SetCraftedItem(42455, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Verdant Spheres -- 57260
 	recipe = AddRecipe(57260, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
@@ -1771,27 +1244,11 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Fear -- 57262
-	recipe = AddRecipe(57262, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(125, 125, 130, 135, 140)
-	recipe:SetCraftedItem(42458, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Felguard -- 57263
 	recipe = AddRecipe(57263, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
 	recipe:SetCraftedItem(42459, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Demon Training -- 57264
-	recipe = AddRecipe(57264, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42460, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
@@ -1803,14 +1260,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Healthstone -- 57266
-	recipe = AddRecipe(57266, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(95, 95, 105, 115, 125)
-	recipe:SetCraftedItem(42462, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Subtlety -- 57267
 	recipe = AddRecipe(57267, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
@@ -1819,13 +1268,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Curse of the Elements -- 57268
-	recipe = AddRecipe(57268, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(42464, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Imp Swarm -- 57269
 	recipe = AddRecipe(57269, V.WOTLK, Q.COMMON)
@@ -1858,14 +1300,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Carrion Swarm -- 57275
-	recipe = AddRecipe(57275, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(325, 325, 330, 335, 340)
-	recipe:SetCraftedItem(42471, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Unstable Affliction -- 57276
 	recipe = AddRecipe(57276, V.WOTLK, Q.COMMON)
@@ -2131,15 +1565,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
 
-	-- Glyph of Flash of Light -- 58313
-	recipe = AddRecipe(58313, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(75, 75, 80, 85, 90)
-	recipe:SetCraftedItem(43367, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of the Mounted King -- 58314
 	recipe = AddRecipe(58314, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(75, 75, 80, 85, 90)
@@ -2180,27 +1605,11 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
 
-	-- Glyph of Levitate -- 58319
-	recipe = AddRecipe(58319, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(175, 175, 180, 185, 190)
-	recipe:SetCraftedItem(43370, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
-
 	-- Glyph of Shackle Undead -- 58320
 	recipe = AddRecipe(58320, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(95, 95, 105, 110, 115)
 	recipe:SetCraftedItem(43373, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
-
-	-- Glyph of Reflective Shield -- 58321
-	recipe = AddRecipe(58321, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(150, 150, 155, 160, 165)
-	recipe:SetCraftedItem(43372, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
 
@@ -2273,14 +1682,6 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(150, 150, 155, 160, 165)
 	recipe:SetCraftedItem(43385, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
-
-	-- Glyph of Healing Storm -- 58331
-	recipe = AddRecipe(58331, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(120, 120, 130, 135, 140)
-	recipe:SetCraftedItem(43344, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
 
@@ -2362,15 +1763,6 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43396, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
-
-	-- Glyph of Long Charge -- 58344
-	recipe = AddRecipe(58344, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(80, 80, 90, 95, 100)
-	recipe:SetCraftedItem(43397, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
 
 	-- Glyph of Gushing Wound -- 58345
@@ -2534,14 +1926,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Dash -- 59315
-	recipe = AddRecipe(59315, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(150, 150, 155, 160, 165)
-	recipe:SetCraftedItem(43674, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
-
 	-- Glyph of Ghost Wolf -- 59326
 	recipe = AddRecipe(59326, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(100, 100, 110, 115, 120)
@@ -2550,14 +1934,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
 	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
-
-	-- Glyph of Unholy Command -- 59338
-	recipe = AddRecipe(59338, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(310, 310, 315, 320, 325)
-	recipe:SetCraftedItem(43825, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Outbreak -- 59339
 	recipe = AddRecipe(59339, V.WOTLK, Q.COMMON)
@@ -2727,22 +2103,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Denounce -- 59559
-	recipe = AddRecipe(59559, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(43867, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Dazing Shield -- 59560
-	recipe = AddRecipe(59560, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(43868, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Immediate Truth -- 59561
 	recipe = AddRecipe(59561, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(385, 385, 390, 397, 405)
@@ -2795,36 +2155,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Northrend Inscription Research -- 61177
-	recipe = AddRecipe(61177, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 425, 437, 450)
-	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Minor Inscription Research -- 61288
-	recipe = AddRecipe(61288, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(75, 75, 125, 137, 150)
-	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 47384, 47396, 47400, 47418, 47419, 47420, 47431, 48619, 53415, 56065, 57620, 62327, 64691, 65043, 66355)
-
-	-- Glyph of Frostfire Bolt -- 61677
-	recipe = AddRecipe(61677, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(44684, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of the Master Shapeshifter -- 62162
-	recipe = AddRecipe(62162, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 380, 385, 390)
-	recipe:SetCraftedItem(44928, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Rituals of the New Moon -- 64051
 	recipe = AddRecipe(64051, V.WOTLK, Q.UNCOMMON)
 	recipe:SetSkillLevels(350, 350, 375, 387, 400)
@@ -2866,14 +2196,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Scatter Shot -- 64249
-	recipe = AddRecipe(64249, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45734, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Crimson Banish -- 64250
 	recipe = AddRecipe(64250, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 435, 440)
@@ -2882,36 +2204,12 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Inquisition -- 64251
-	recipe = AddRecipe(64251, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45747, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Shield Wall -- 64252
-	recipe = AddRecipe(64252, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45797, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Master's Call -- 64253
 	recipe = AddRecipe(64253, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 435, 440)
 	recipe:SetCraftedItem(45733, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Holy Shock -- 64254
-	recipe = AddRecipe(64254, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45746, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Victorious Throw -- 64255
@@ -3002,36 +2300,12 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Chimera Shot -- 64271
-	recipe = AddRecipe(64271, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45625, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Tranquilizing Shot -- 64273
 	recipe = AddRecipe(64273, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 435, 440)
 	recipe:SetCraftedItem(45731, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Water Elemental -- 64274
-	recipe = AddRecipe(64274, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45736, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Slow -- 64275
-	recipe = AddRecipe(64275, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45737, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Illusion -- 64276
@@ -3050,44 +2324,12 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Hammer of the Righteous -- 64278
-	recipe = AddRecipe(64278, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45742, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Divine Storm -- 64279
-	recipe = AddRecipe(64279, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45743, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Dispersion -- 64280
-	recipe = AddRecipe(64280, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45753, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Leap of Faith -- 64281
 	recipe = AddRecipe(64281, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 435, 440)
 	recipe:SetCraftedItem(45755, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Penance -- 64282
-	recipe = AddRecipe(64282, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45756, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Mind Spike -- 64283
@@ -3114,22 +2356,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Stealth -- 64286
-	recipe = AddRecipe(64286, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45764, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Thunder -- 64287
-	recipe = AddRecipe(64287, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45770, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Feral Spirit -- 64288
 	recipe = AddRecipe(64288, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 435, 440)
@@ -3144,22 +2370,6 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45772, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Drain Life -- 64291
-	recipe = AddRecipe(64291, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45779, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Ember Tap -- 64294
-	recipe = AddRecipe(64294, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45781, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Whirlwind -- 64295
@@ -3226,14 +2436,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Divine Plea -- 64305
-	recipe = AddRecipe(64305, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45745, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Stampeding Roar -- 64307
 	recipe = AddRecipe(64307, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 435, 440)
@@ -3242,28 +2444,12 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of the Alabaster Shield -- 64308
-	recipe = AddRecipe(64308, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45744, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Focused Mending -- 64309
 	recipe = AddRecipe(64309, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 435, 440)
 	recipe:SetCraftedItem(45757, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Tricks of the Trade -- 64310
-	recipe = AddRecipe(64310, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45767, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Unending Resolve -- 64311
@@ -3282,38 +2468,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
 	recipe:AddDiscovery("DISCOVERY_INSC_MINOR")
 
-	-- Glyph of Might of Ursoc -- 64313
-	recipe = AddRecipe(64313, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45603, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Mirror Image -- 64314
-	recipe = AddRecipe(64314, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45739, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Deadly Momentum -- 64315
-	recipe = AddRecipe(64315, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45766, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Hex -- 64316
-	recipe = AddRecipe(64316, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45777, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Demonic Circle -- 64317
 	recipe = AddRecipe(64317, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 430, 435, 440)
@@ -3321,22 +2475,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
 	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Demon Hunting -- 64318
-	recipe = AddRecipe(64318, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 430, 435, 440)
-	recipe:SetCraftedItem(45780, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
-	recipe:AddDiscovery("DISCOVERY_INSC_BOOK", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Ferocious Bite -- 67600
-	recipe = AddRecipe(67600, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(100, 100, 105, 110, 115)
-	recipe:SetCraftedItem(48720, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
 	-- Glyph of Thunder Strike -- 68166
 	recipe = AddRecipe(68166, V.WOTLK, Q.COMMON)
@@ -3653,30 +2791,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
 	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Cat Form -- 94401
-	recipe = AddRecipe(94401, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(120, 120, 125, 130, 135)
-	recipe:SetCraftedItem(67487, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Fae Silence -- 94402
-	recipe = AddRecipe(94402, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(330, 330, 335, 340, 345)
-	recipe:SetCraftedItem(67484, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Faerie Fire -- 94403
-	recipe = AddRecipe(94403, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(120, 120, 125, 130, 135)
-	recipe:SetCraftedItem(67485, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of the Predator -- 94404
 	recipe = AddRecipe(94404, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(150, 150, 155, 160, 165)
@@ -3689,14 +2803,6 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(94405, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(150, 150, 155, 160, 165)
 	recipe:SetCraftedItem(67483, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Bull Rush -- 94406
-	recipe = AddRecipe(94406, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(250, 250, 255, 260, 265)
-	recipe:SetCraftedItem(67482, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
 	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
@@ -3731,30 +2837,6 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(66918, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Dark Succor -- 96284
-	recipe = AddRecipe(96284, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(275, 275, 280, 287, 295)
-	recipe:SetCraftedItem(68793, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30711, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Armors -- 98398
-	recipe = AddRecipe(98398, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(430, 430, 430, 435, 440)
-	recipe:SetCraftedItem(69773, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Lightning Shield -- 101057
-	recipe = AddRecipe(101057, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(430, 430, 430, 435, 440)
-	recipe:SetCraftedItem(71155, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
 	recipe:AddDiscovery("DISCOVERY_INSC_NORTHREND", "DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Shadow -- 107907
@@ -3950,14 +3032,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Afterlife -- 112451
-	recipe = AddRecipe(112451, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(155, 155, 165, 170, 175)
-	recipe:SetCraftedItem(87891, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of Sparring -- 112452
 	recipe = AddRecipe(112452, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(360, 360, 370, 375, 380)
@@ -4085,14 +3159,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Incite -- 122015
-	recipe = AddRecipe(122015, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(83096, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Mass Exorcism -- 122030
 	recipe = AddRecipe(122030, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(525, 525, 595, 600, 605)
@@ -4117,38 +3183,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
 
-	-- Glyph of Black Ice -- 124443
-	recipe = AddRecipe(124443, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(85684, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Breath of Fire -- 124444
-	recipe = AddRecipe(124444, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(85685, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Fists of Fury -- 124445
-	recipe = AddRecipe(124445, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(460, 460, 470, 475, 480)
-	recipe:SetCraftedItem(87892, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Clash -- 124446
-	recipe = AddRecipe(124446, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(85687, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Enduring Healing Sphere -- 124447
 	recipe = AddRecipe(124447, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(525, 525, 595, 600, 605)
@@ -4157,26 +3191,10 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
 	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Rapid Rolling -- 124448
-	recipe = AddRecipe(124448, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(82345, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
-
 	-- Glyph of Guard -- 124449
 	recipe = AddRecipe(124449, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(525, 525, 595, 600, 605)
 	recipe:SetCraftedItem(85691, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Mana Tea -- 124450
-	recipe = AddRecipe(124450, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(85692, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
 	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
@@ -4196,22 +3214,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Spinning Crane Kick -- 124453
-	recipe = AddRecipe(124453, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(445, 445, 455, 460, 465)
-	recipe:SetCraftedItem(85697, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
-	-- Glyph of Spinning Fire Blossom -- 124454
-	recipe = AddRecipe(124454, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(85698, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Surging Mist -- 124455
 	recipe = AddRecipe(124455, V.MOP, Q.COMMON)
@@ -4261,14 +3263,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
 	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
 
-	-- Glyph of Fortuitous Spheres -- 124463
-	recipe = AddRecipe(124463, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(380, 380, 390, 395, 400)
-	recipe:SetCraftedItem(87896, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355)
-
 	-- Glyph of the Heavens -- 124466
 	recipe = AddRecipe(124466, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(525, 525, 595, 600, 605)
@@ -4299,22 +3293,6 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87277, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Direction -- 126701
-	recipe = AddRecipe(126701, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(87278, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
-
-	-- Glyph of Marking -- 126704
-	recipe = AddRecipe(126704, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(525, 525, 595, 600, 605)
-	recipe:SetCraftedItem(87279, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
 	recipe:AddDiscovery("DISCOVERY_INSC_PANDARIA")
 
 	-- Glyph of Shadowy Friends -- 126800
@@ -4520,15 +3498,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
 	recipe:AddWorldDrop(Z.PANDARIA)
 
-	-- Glyph of Loud Horn -- 148256
-	recipe = AddRecipe(148256, V.MOP, Q.UNCOMMON)
-	recipe:SetSkillLevels(500, 500, 595, 600, 605)
-	recipe:SetRecipeItem(104209, "BIND_ON_EQUIP")
-	recipe:SetCraftedItem(104047, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	recipe:AddMobDrop(72875)
-
 	-- Glyph of Regenerative Magic -- 148257
 	recipe = AddRecipe(148257, V.MOP, Q.UNCOMMON)
 	recipe:SetSkillLevels(500, 500, 595, 600, 605)
@@ -4537,15 +3506,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
 	recipe:AddMobDrop(72771, 73157)
-
-	-- Glyph of Festering Blood -- 148258
-	recipe = AddRecipe(148258, V.MOP, Q.UNCOMMON)
-	recipe:SetSkillLevels(500, 500, 595, 600, 605)
-	recipe:SetRecipeItem(104211, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(104049, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	recipe:AddWorldDrop(Z.PANDARIA)
 
 	-- Glyph of Divine Shield -- 148259
 	recipe = AddRecipe(148259, V.MOP, Q.UNCOMMON)
@@ -4574,33 +3534,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
 	recipe:AddWorldDrop(Z.PANDARIA)
 
-	-- Glyph of Eternal Earth -- 148262
-	recipe = AddRecipe(148262, V.MOP, Q.UNCOMMON)
-	recipe:SetSkillLevels(500, 500, 595, 600, 605)
-	recipe:SetRecipeItem(104215, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(104053, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddWorldDrop(Z.PANDARIA)
-
-	-- Glyph of Impaling Throws -- 148264
-	recipe = AddRecipe(148264, V.MOP, Q.UNCOMMON)
-	recipe:SetSkillLevels(500, 500, 595, 600, 605)
-	recipe:SetRecipeItem(104217, "BIND_ON_EQUIP")
-	recipe:SetCraftedItem(104055, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddMobDrop(72896)
-
-	-- Glyph of the Executor -- 148265
-	recipe = AddRecipe(148265, V.MOP, Q.UNCOMMON)
-	recipe:SetSkillLevels(500, 500, 595, 600, 605)
-	recipe:SetRecipeItem(104218, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(104056, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	recipe:AddWorldDrop(Z.PANDARIA)
-
 	-- Glyph of the Skeleton -- 148266
 	recipe = AddRecipe(148266, V.MOP, Q.UNCOMMON)
 	recipe:SetSkillLevels(500, 500, 595, 600, 605)
@@ -4609,15 +3542,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
 	recipe:AddMobDrop(72048)
-
-	-- Glyph of the Long Winter -- 148267
-	recipe = AddRecipe(148267, V.MOP, Q.UNCOMMON)
-	recipe:SetSkillLevels(500, 500, 595, 600, 605)
-	recipe:SetRecipeItem(104220, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(104101, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	recipe:AddWorldDrop(Z.PANDARIA)
 
 	-- Glyph of the Sprouting Mushroom -- 148268
 	recipe = AddRecipe(148268, V.MOP, Q.COMMON)
@@ -4699,15 +3623,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
 	recipe:AddWorldDrop(Z.PANDARIA)
-
-	-- Glyph of Shifted Appearances -- 148277
-	recipe = AddRecipe(148277, V.MOP, Q.UNCOMMON)
-	recipe:SetSkillLevels(500, 500, 595, 600, 605)
-	recipe:SetRecipeItem(104230, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(104121, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	recipe:AddVendor(73293)
 
 	-- Glyph of Inspired Hymns -- 148278
 	recipe = AddRecipe(148278, V.MOP, Q.UNCOMMON)
