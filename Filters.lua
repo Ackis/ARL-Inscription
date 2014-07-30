@@ -87,6 +87,7 @@ function module:InitializeItemFilters(parent_panel)
 		inscription_staff		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Staff"]), 		text = L["Staff"],		row = 4, col = 1 },
 		inscription_pet			= { tt = L["FILTER_DESC_FORMAT"]:format(_G.PETS),		text = _G.PETS,			row = 4, col = 2 },
 		inscription_trinket		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Trinket"]),		text = L["Trinket"],		row = 5, col = 1 },
+		inscription_research		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Research"]),		text = L["Research"],		row = 5, col = 2 },
 	}
 
 	general_toggle:SetScript("OnClick", function(self, button)

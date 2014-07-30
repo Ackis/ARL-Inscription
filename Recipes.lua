@@ -3780,52 +3780,62 @@ function module:InitializeRecipes()
 	-------------------------------------------------------------------------------
 	-- Research: Midnight Ink -- 165304
 	recipe = AddRecipe(165304, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(175, 175, 175, 225, 275)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Lion's Ink -- 165456
 	recipe = AddRecipe(165456, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(200, 200, 200, 250, 300)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Jadefire Ink -- 165460
 	recipe = AddRecipe(165460, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(250, 250, 250, 300, 350)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Celestial Ink -- 165461
 	recipe = AddRecipe(165461, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(300, 300, 300, 350, 400)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Shimmering Ink -- 165463
 	recipe = AddRecipe(165463, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(350, 350, 350, 400, 450)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Ethereal Ink -- 165464
 	recipe = AddRecipe(165464, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(390, 390, 390, 400, 490)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Ink of the Sea -- 165465
 	recipe = AddRecipe(165465, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(450, 450, 450, 500, 550)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Blackfallow Ink -- 165466
 	recipe = AddRecipe(165466, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(525, 525, 525, 560, 595)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Ink of Dreams -- 165467
 	recipe = AddRecipe(165467, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(595, 595, 595, 597, 600)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	-- Research: Moonglow Ink -- 165564
 	recipe = AddRecipe(165564, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(125, 125, 125, 175, 225)
+	recipe:SetItemFilterType("INSCRIPTION_RESEARCH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
 	self.InitializeRecipes = nil

@@ -30,6 +30,7 @@ module.ITEM_FILTER_TYPES = {
 	INSCRIPTION_SCROLL = true,
 	INSCRIPTION_PET = true,
 	INSCRIPTION_TRINKET = true,
+	INSCRIPTION_RESEARCH = true,
 }
 
 function module:OnInitialize()
