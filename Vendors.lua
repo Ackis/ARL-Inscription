@@ -29,6 +29,7 @@ function module:InitializeVendors()
 	AddVendor(49703,	L["Casandra Downs"],			Z.TWILIGHT_HIGHLANDS,		78.6,	76.2,	"Alliance")
 	AddVendor(50248,	L["Una Kobuna"],			Z.TWILIGHT_HIGHLANDS,		76.6,	49.4,	"Horde")
 	AddVendor(73293,	L["Whizzig"],				Z.TIMELESS_ISLE,		42.8,	59.2,	"Neutral")
+	AddVendor(77372,	L["Joque Hemsley"],			Z.LUNARFALL,			 0.0,	 0.0,	"Alliance") -- Alliance Garrison
 
 	self.InitializeVendors = nil
 end
