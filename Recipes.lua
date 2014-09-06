@@ -4856,7 +4856,7 @@ function module:InitializeRecipes()
 	-- Glyph of Enduring Deceit -- 148489
 	recipe = AddRecipe(148489, V.MOP, Q.UNCOMMON)
 	recipe:SetSkillLevels(500, 500, 595, 600, 605)
-	recipe:SetRecipeItem(104281, "BIND_ON_EQUIP")
+	recipe:SetRecipeItem(104281, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(104276, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
