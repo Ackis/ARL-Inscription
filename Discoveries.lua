@@ -20,10 +20,17 @@ function module:InitializeDiscoveries()
 		addon.AcquireTypes.Discovery:AddEntity(identifier, L[identifier], location, coord_x, coord_y, faction)
 	end
 
-	AddDiscovery("DISCOVERY_INSC_BOOK")
-	AddDiscovery("DISCOVERY_INSC_MINOR")
-	AddDiscovery("DISCOVERY_INSC_NORTHREND")
-	AddDiscovery("DISCOVERY_INSC_PANDARIA")
+	AddDiscovery("DISCOVERY_INSC_AUTOLEARN")
+	AddDiscovery("DISCOVERY_INSC_DREAMS")
+	AddDiscovery("DISCOVERY_INSC_LIONS")
+	AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
+	AddDiscovery("DISCOVERY_INSC_SEA")
+	AddDiscovery("DISCOVERY_INSC_CELESTIAL")
+	AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
+	AddDiscovery("DISCOVERY_INSC_ETHEREAL")
+	AddDiscovery("DISCOVERY_INSC_MOONGLOW")
+	AddDiscovery("DISCOVERY_INSC_JADEFIRE")
+	AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	self.InitializeDiscoveries = nil
 end
