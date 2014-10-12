@@ -243,14 +243,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355, 85911)
 
-	-- Ivory Ink -- 52738
-	recipe = AddRecipe(52738, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 15, 22, 30)
-	recipe:SetCraftedItem(37101, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
-	recipe:AddCustom("DEFAULT_RECIPE")
-
 	-- Enchanting Vellum -- 52739
 	recipe = AddRecipe(52739, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(35, 35, 75, 87, 100)
@@ -1483,14 +1475,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
 	
 
-	-- Glyph of the Porcupine -- 58303
-	recipe = AddRecipe(58303, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(75, 75, 80, 85, 90)
-	recipe:SetCraftedItem(43339, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
-
 	-- Glyph of Conjure Familiar -- 58306
 	recipe = AddRecipe(58306, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(75, 75, 80, 85, 90)
@@ -1499,34 +1483,10 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
 	
 
-	-- Glyph of the Monkey -- 58307
-	recipe = AddRecipe(58307, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(120, 120, 130, 135, 140)
-	recipe:SetCraftedItem(43360, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
-
 	-- Glyph of Arcane Language -- 58308
 	recipe = AddRecipe(58308, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(75, 75, 80, 85, 90)
 	recipe:SetCraftedItem(43364, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
-
-	-- Glyph of the Bear Cub -- 58309
-	recipe = AddRecipe(58309, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(75, 75, 85, 90, 95)
-	recipe:SetCraftedItem(43362, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-
-
-	-- Glyph of the Penguin -- 58310
-	recipe = AddRecipe(58310, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(75, 75, 80, 85, 90)
-	recipe:SetCraftedItem(43361, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
 	
