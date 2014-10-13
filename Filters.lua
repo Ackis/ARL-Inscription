@@ -33,6 +33,9 @@ function module:InitializeItemFilters(parent_panel)
 
 	local armor_types = {
 		inscription_off_hand	= { tt = L["FILTER_DESC_FORMAT"]:format(_G.SECONDARYHANDSLOT),	text = _G.SECONDARYHANDSLOT,	row = 1, col = 1 },
+		inscription_staff	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Staff"]), 		text = L["Staff"],		row = 1, col = 2 },
+		inscription_wand	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Wand"]), 		text = L["Wand"],		row = 2, col = 1 },
+		inscription_trinket	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Trinket"]),		text = L["Trinket"],		row = 2, col = 2 },
 	}
 
 	armor_toggle:SetScript("OnClick", function(self, button)
@@ -86,8 +89,6 @@ function module:InitializeItemFilters(parent_panel)
 		inscription_pet			= { tt = L["FILTER_DESC_FORMAT"]:format(_G.PETS),		text = _G.PETS,			row = 3, col = 2 },
 		inscription_research		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Research"]),		text = L["Research"],		row = 4, col = 1 },
 		inscription_scroll		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Scroll"]), 		text = L["Scroll"],		row = 4, col = 2 },
-		inscription_staff		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Staff"]), 		text = L["Staff"],		row = 5, col = 1 },
-		inscription_trinket		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Trinket"]),		text = L["Trinket"],		row = 5, col = 2 },
 	}
 
 	general_toggle:SetScript("OnClick", function(self, button)
