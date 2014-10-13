@@ -273,7 +273,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40920, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of the Orca -- 56948
 	recipe = AddRecipe(56948, V.WOTLK, Q.COMMON)
@@ -281,7 +281,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40919, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of the Stag -- 56950
 	recipe = AddRecipe(56950, V.WOTLK, Q.COMMON)
@@ -289,7 +289,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40900, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Rake -- 56952
 	recipe = AddRecipe(56952, V.WOTLK, Q.COMMON)
@@ -297,7 +297,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40903, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Regrowth -- 56954
 	recipe = AddRecipe(56954, V.WOTLK, Q.COMMON)
@@ -305,7 +305,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40912, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Skull Bash -- 56958
 	recipe = AddRecipe(56958, V.WOTLK, Q.COMMON)
@@ -313,7 +313,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40921, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Guided Stars -- 56959
 	recipe = AddRecipe(56959, V.WOTLK, Q.COMMON)
@@ -321,7 +321,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(40916, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Stars -- 56965
 	recipe = AddRecipe(56965, V.WOTLK, Q.COMMON)
@@ -329,7 +329,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(44922, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Arcane Explosion -- 56972
 	recipe = AddRecipe(56972, V.WOTLK, Q.COMMON)
@@ -337,7 +337,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42736, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Combustion -- 56975
 	recipe = AddRecipe(56975, V.WOTLK, Q.COMMON)
@@ -345,7 +345,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42739, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Momentum -- 56978
 	recipe = AddRecipe(56978, V.WOTLK, Q.COMMON)
@@ -353,7 +353,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42743, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Ice Block -- 56979
 	recipe = AddRecipe(56979, V.WOTLK, Q.COMMON)
@@ -361,7 +361,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42744, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Splitting Ice -- 56980
 	recipe = AddRecipe(56980, V.WOTLK, Q.COMMON)
@@ -369,7 +369,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42745, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Cone of Cold -- 56981
 	recipe = AddRecipe(56981, V.WOTLK, Q.COMMON)
@@ -377,7 +377,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42746, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Rapid Displacement -- 56983
 	recipe = AddRecipe(56983, V.WOTLK, Q.COMMON)
@@ -385,7 +385,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42748, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Crittermorph -- 56986
 	recipe = AddRecipe(56986, V.WOTLK, Q.COMMON)
@@ -393,7 +393,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42751, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Icy Veins -- 56988
 	recipe = AddRecipe(56988, V.WOTLK, Q.COMMON)
@@ -401,7 +401,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42753, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Spellsteal -- 56989
 	recipe = AddRecipe(56989, V.WOTLK, Q.COMMON)
@@ -409,7 +409,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42754, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Remove Curse -- 56990
 	recipe = AddRecipe(56990, V.WOTLK, Q.COMMON)
@@ -417,7 +417,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(44920, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Arcane Power -- 56991
 	recipe = AddRecipe(56991, V.WOTLK, Q.COMMON)
@@ -425,7 +425,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(44955, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Aspects -- 56994
 	recipe = AddRecipe(56994, V.WOTLK, Q.COMMON)
@@ -433,7 +433,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42897, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Camouflage -- 56995
 	recipe = AddRecipe(56995, V.WOTLK, Q.COMMON)
@@ -441,7 +441,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42898, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Distracting Shot -- 56998
 	recipe = AddRecipe(56998, V.WOTLK, Q.COMMON)
@@ -449,7 +449,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42901, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Endless Wrath -- 56999
 	recipe = AddRecipe(56999, V.WOTLK, Q.COMMON)
@@ -457,7 +457,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42902, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Deterrence -- 57000
 	recipe = AddRecipe(57000, V.WOTLK, Q.COMMON)
@@ -465,7 +465,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42903, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Disengage -- 57001
 	recipe = AddRecipe(57001, V.WOTLK, Q.COMMON)
@@ -473,7 +473,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42904, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Freezing Trap -- 57002
 	recipe = AddRecipe(57002, V.WOTLK, Q.COMMON)
@@ -481,7 +481,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42905, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Ice Trap -- 57003
 	recipe = AddRecipe(57003, V.WOTLK, Q.COMMON)
@@ -489,7 +489,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42906, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Explosive Trap -- 57005
 	recipe = AddRecipe(57005, V.WOTLK, Q.COMMON)
@@ -497,7 +497,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42908, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of No Escape -- 57007
 	recipe = AddRecipe(57007, V.WOTLK, Q.COMMON)
@@ -505,7 +505,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42910, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Tame Beast -- 57009
 	recipe = AddRecipe(57009, V.WOTLK, Q.COMMON)
@@ -513,7 +513,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42912, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Mend Pet -- 57012
 	recipe = AddRecipe(57012, V.WOTLK, Q.COMMON)
@@ -521,7 +521,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42915, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Solace -- 57014
 	recipe = AddRecipe(57014, V.WOTLK, Q.COMMON)
@@ -529,7 +529,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42917, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Focused Shield -- 57019
 	recipe = AddRecipe(57019, V.WOTLK, Q.COMMON)
@@ -537,7 +537,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41101, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of the Harsh Word -- 57021
 	recipe = AddRecipe(57021, V.WOTLK, Q.COMMON)
@@ -553,7 +553,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41096, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Consecration -- 57023
 	recipe = AddRecipe(57023, V.WOTLK, Q.COMMON)
@@ -561,7 +561,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41099, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Holy Wrath -- 57027
 	recipe = AddRecipe(57027, V.WOTLK, Q.COMMON)
@@ -569,7 +569,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41095, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Divinity -- 57031
 	recipe = AddRecipe(57031, V.WOTLK, Q.COMMON)
@@ -577,7 +577,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41108, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of the Luminous Charger -- 57032
 	recipe = AddRecipe(57032, V.WOTLK, Q.COMMON)
@@ -585,7 +585,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41100, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.TANK, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Devotion Aura -- 57033
 	recipe = AddRecipe(57033, V.WOTLK, Q.COMMON)
@@ -593,7 +593,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41094, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Blessed Life -- 57034
 	recipe = AddRecipe(57034, V.WOTLK, Q.COMMON)
@@ -601,7 +601,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41110, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Burden of Guilt -- 57036
 	recipe = AddRecipe(57036, V.WOTLK, Q.COMMON)
@@ -609,7 +609,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41102, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Decoy -- 57114
 	recipe = AddRecipe(57114, V.WOTLK, Q.COMMON)
@@ -617,7 +617,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42956, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Blade Flurry -- 57115
 	recipe = AddRecipe(57115, V.WOTLK, Q.COMMON)
@@ -633,7 +633,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42960, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Recovery -- 57120
 	recipe = AddRecipe(57120, V.WOTLK, Q.COMMON)
@@ -641,7 +641,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42961, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Feint -- 57122
 	recipe = AddRecipe(57122, V.WOTLK, Q.COMMON)
@@ -649,7 +649,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42963, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Garrote -- 57123
 	recipe = AddRecipe(57123, V.WOTLK, Q.COMMON)
@@ -657,7 +657,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42964, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Detection -- 57124
 	recipe = AddRecipe(57124, V.WOTLK, Q.COMMON)
@@ -665,7 +665,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42965, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Gouge -- 57125
 	recipe = AddRecipe(57125, V.WOTLK, Q.COMMON)
@@ -673,7 +673,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42966, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Hemorrhage -- 57126
 	recipe = AddRecipe(57126, V.WOTLK, Q.COMMON)
@@ -681,7 +681,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42967, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Smoke Bomb -- 57127
 	recipe = AddRecipe(57127, V.WOTLK, Q.COMMON)
@@ -689,7 +689,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42968, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Hemorraghing Veins -- 57129
 	recipe = AddRecipe(57129, V.WOTLK, Q.COMMON)
@@ -697,7 +697,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42970, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Kick -- 57130
 	recipe = AddRecipe(57130, V.WOTLK, Q.COMMON)
@@ -705,7 +705,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42971, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Shiv -- 57132
 	recipe = AddRecipe(57132, V.WOTLK, Q.COMMON)
@@ -721,7 +721,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42974, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Shield Slam -- 57152
 	recipe = AddRecipe(57152, V.WOTLK, Q.COMMON)
@@ -729,7 +729,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43425, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.TANK, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Bloody Healing -- 57153
 	recipe = AddRecipe(57153, V.WOTLK, Q.COMMON)
@@ -737,7 +737,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43412, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Hindering Strikes -- 57154
 	recipe = AddRecipe(57154, V.WOTLK, Q.COMMON)
@@ -745,7 +745,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43414, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Rude Interruption -- 57157
 	recipe = AddRecipe(57157, V.WOTLK, Q.COMMON)
@@ -753,7 +753,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43417, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Blitz -- 57159
 	recipe = AddRecipe(57159, V.WOTLK, Q.COMMON)
@@ -761,7 +761,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43419, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Mortal Strike -- 57160
 	recipe = AddRecipe(57160, V.WOTLK, Q.COMMON)
@@ -769,7 +769,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43421, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Die by the Sword -- 57161
 	recipe = AddRecipe(57161, V.WOTLK, Q.COMMON)
@@ -777,7 +777,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43422, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Resonating Power -- 57164
 	recipe = AddRecipe(57164, V.WOTLK, Q.COMMON)
@@ -793,7 +793,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43428, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Raging Wind -- 57172
 	recipe = AddRecipe(57172, V.WOTLK, Q.COMMON)
@@ -801,7 +801,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43432, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Circle of Healing -- 57181
 	recipe = AddRecipe(57181, V.WOTLK, Q.COMMON)
@@ -809,7 +809,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42396, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Purify -- 57183
 	recipe = AddRecipe(57183, V.WOTLK, Q.COMMON)
@@ -817,7 +817,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42397, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Fear Ward -- 57185
 	recipe = AddRecipe(57185, V.WOTLK, Q.COMMON)
@@ -825,7 +825,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42399, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Lightwell -- 57189
 	recipe = AddRecipe(57189, V.WOTLK, Q.COMMON)
@@ -833,7 +833,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42403, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Mass Dispel -- 57190
 	recipe = AddRecipe(57190, V.WOTLK, Q.COMMON)
@@ -841,7 +841,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42404, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Psychic Horror -- 57191
 	recipe = AddRecipe(57191, V.WOTLK, Q.COMMON)
@@ -849,7 +849,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42405, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Weakened Soul -- 57193
 	recipe = AddRecipe(57193, V.WOTLK, Q.COMMON)
@@ -857,7 +857,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42407, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Power Word: Shield -- 57194
 	recipe = AddRecipe(57194, V.WOTLK, Q.COMMON)
@@ -865,7 +865,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42408, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Spirit of Redemption -- 57195
 	recipe = AddRecipe(57195, V.WOTLK, Q.COMMON)
@@ -881,7 +881,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42410, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Scourge Imprisonment -- 57198
 	recipe = AddRecipe(57198, V.WOTLK, Q.COMMON)
@@ -889,7 +889,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42412, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Dispel Magic -- 57200
 	recipe = AddRecipe(57200, V.WOTLK, Q.COMMON)
@@ -897,7 +897,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42415, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Prayer of Mending -- 57202
 	recipe = AddRecipe(57202, V.WOTLK, Q.COMMON)
@@ -905,7 +905,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42417, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Anti-Magic Shell -- 57207
 	recipe = AddRecipe(57207, V.WOTLK, Q.COMMON)
@@ -921,7 +921,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43535, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Icebound Fortitude -- 57210
 	recipe = AddRecipe(57210, V.WOTLK, Q.COMMON)
@@ -929,7 +929,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43536, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Chains of Ice -- 57211
 	recipe = AddRecipe(57211, V.WOTLK, Q.COMMON)
@@ -937,7 +937,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43537, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Death's Embrace -- 57215
 	recipe = AddRecipe(57215, V.WOTLK, Q.COMMON)
@@ -945,7 +945,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43539, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Horn of Winter -- 57217
 	recipe = AddRecipe(57217, V.WOTLK, Q.COMMON)
@@ -953,7 +953,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43544, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Icy Touch -- 57219
 	recipe = AddRecipe(57219, V.WOTLK, Q.COMMON)
@@ -961,7 +961,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43546, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Enduring Infection -- 57220
 	recipe = AddRecipe(57220, V.WOTLK, Q.COMMON)
@@ -969,15 +969,15 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43547, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
-	-- Glyph of Pestilence -- 57221
+	-- Glyph of Blood Boil -- 57221
 	recipe = AddRecipe(57221, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(300, 300, 305, 310, 315)
 	recipe:SetCraftedItem(43548, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Mind Freeze -- 57222
 	recipe = AddRecipe(57222, V.WOTLK, Q.COMMON)
@@ -985,7 +985,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43549, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Army of the Dead -- 57223
 	recipe = AddRecipe(57223, V.WOTLK, Q.COMMON)
@@ -993,7 +993,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43550, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Foul Menagerie -- 57224
 	recipe = AddRecipe(57224, V.WOTLK, Q.COMMON)
@@ -1001,7 +1001,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43551, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Strangulate -- 57225
 	recipe = AddRecipe(57225, V.WOTLK, Q.COMMON)
@@ -1009,7 +1009,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43552, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Pillar of Frost -- 57226
 	recipe = AddRecipe(57226, V.WOTLK, Q.COMMON)
@@ -1017,7 +1017,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43553, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Vampiric Blood -- 57227
 	recipe = AddRecipe(57227, V.WOTLK, Q.COMMON)
@@ -1025,7 +1025,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43554, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Death Gate -- 57228
 	recipe = AddRecipe(57228, V.WOTLK, Q.COMMON)
@@ -1033,7 +1033,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43673, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Path of Frost -- 57229
 	recipe = AddRecipe(57229, V.WOTLK, Q.COMMON)
@@ -1041,7 +1041,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43671, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Resilient Grip -- 57230
 	recipe = AddRecipe(57230, V.WOTLK, Q.COMMON)
@@ -1049,7 +1049,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43672, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Unstable Earth -- 57232
 	recipe = AddRecipe(57232, V.WOTLK, Q.COMMON)
@@ -1057,7 +1057,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41517, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Chain Lightning -- 57233
 	recipe = AddRecipe(57233, V.WOTLK, Q.COMMON)
@@ -1065,7 +1065,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41518, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Spirit Walk -- 57234
 	recipe = AddRecipe(57234, V.WOTLK, Q.COMMON)
@@ -1081,7 +1081,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41526, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Purge -- 57236
 	recipe = AddRecipe(57236, V.WOTLK, Q.COMMON)
@@ -1089,7 +1089,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41527, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Fire Elemental Totem -- 57237
 	recipe = AddRecipe(57237, V.WOTLK, Q.COMMON)
@@ -1097,7 +1097,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41529, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Fire Nova -- 57238
 	recipe = AddRecipe(57238, V.WOTLK, Q.COMMON)
@@ -1105,7 +1105,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41530, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Wind Shear -- 57240
 	recipe = AddRecipe(57240, V.WOTLK, Q.COMMON)
@@ -1113,7 +1113,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41532, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Healing Stream Totem -- 57242
 	recipe = AddRecipe(57242, V.WOTLK, Q.COMMON)
@@ -1121,7 +1121,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41533, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Totemic Recall -- 57244
 	recipe = AddRecipe(57244, V.WOTLK, Q.COMMON)
@@ -1129,7 +1129,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41535, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of the Lakestrider -- 57246
 	recipe = AddRecipe(57246, V.WOTLK, Q.COMMON)
@@ -1137,7 +1137,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41537, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Grounding Totem -- 57247
 	recipe = AddRecipe(57247, V.WOTLK, Q.COMMON)
@@ -1145,7 +1145,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41538, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Lava Lash -- 57249
 	recipe = AddRecipe(57249, V.WOTLK, Q.COMMON)
@@ -1153,7 +1153,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41540, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Chaining -- 57250
 	recipe = AddRecipe(57250, V.WOTLK, Q.COMMON)
@@ -1161,7 +1161,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41552, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Water Shield -- 57251
 	recipe = AddRecipe(57251, V.WOTLK, Q.COMMON)
@@ -1169,7 +1169,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41541, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Cleansing Waters -- 57252
 	recipe = AddRecipe(57252, V.WOTLK, Q.COMMON)
@@ -1177,7 +1177,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41542, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Thunderstorm -- 57253
 	recipe = AddRecipe(57253, V.WOTLK, Q.COMMON)
@@ -1185,7 +1185,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(44923, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Hand of Gul'dan -- 57257
 	recipe = AddRecipe(57257, V.WOTLK, Q.COMMON)
@@ -1193,7 +1193,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42453, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Conflagrate -- 57258
 	recipe = AddRecipe(57258, V.WOTLK, Q.COMMON)
@@ -1201,7 +1201,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42454, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Verdant Spheres -- 57260
 	recipe = AddRecipe(57260, V.WOTLK, Q.COMMON)
@@ -1209,7 +1209,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42456, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Nightmares -- 57261
 	recipe = AddRecipe(57261, V.WOTLK, Q.COMMON)
@@ -1217,7 +1217,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42457, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Felguard -- 57263
 	recipe = AddRecipe(57263, V.WOTLK, Q.COMMON)
@@ -1233,7 +1233,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42461, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Subtlety -- 57267
 	recipe = AddRecipe(57267, V.WOTLK, Q.COMMON)
@@ -1241,7 +1241,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42463, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Imp Swarm -- 57269
 	recipe = AddRecipe(57269, V.WOTLK, Q.COMMON)
@@ -1249,7 +1249,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42465, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Havoc -- 57270
 	recipe = AddRecipe(57270, V.WOTLK, Q.COMMON)
@@ -1257,7 +1257,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42466, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Shadow Bolt -- 57271
 	recipe = AddRecipe(57271, V.WOTLK, Q.COMMON)
@@ -1265,7 +1265,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42467, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Soulstone -- 57274
 	recipe = AddRecipe(57274, V.WOTLK, Q.COMMON)
@@ -1273,7 +1273,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42470, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Unstable Affliction -- 57276
 	recipe = AddRecipe(57276, V.WOTLK, Q.COMMON)
@@ -1281,7 +1281,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42472, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Falling Meteor -- 57277
 	recipe = AddRecipe(57277, V.WOTLK, Q.COMMON)
@@ -1289,7 +1289,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42473, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Hunter's Ink -- 57703
 	recipe = AddRecipe(57703, V.WOTLK, Q.COMMON)
@@ -1401,7 +1401,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43316, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of the Chameleon -- 58287
 	recipe = AddRecipe(58287, V.WOTLK, Q.COMMON)
@@ -1409,7 +1409,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43334, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Blooming -- 58288
 	recipe = AddRecipe(58288, V.WOTLK, Q.COMMON)
@@ -1417,7 +1417,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43331, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Grace -- 58289
 	recipe = AddRecipe(58289, V.WOTLK, Q.COMMON)
@@ -1425,7 +1425,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43332, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Charm Woodland Creature -- 58296
 	recipe = AddRecipe(58296, V.WOTLK, Q.COMMON)
@@ -1433,7 +1433,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43335, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Aspect of the Pack -- 58297
 	recipe = AddRecipe(58297, V.WOTLK, Q.COMMON)
@@ -1441,7 +1441,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43355, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Stampede -- 58298
 	recipe = AddRecipe(58298, V.WOTLK, Q.COMMON)
@@ -1449,7 +1449,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43356, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Revive Pet -- 58299
 	recipe = AddRecipe(58299, V.WOTLK, Q.COMMON)
@@ -1457,7 +1457,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43338, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Lesser Proportion -- 58301
 	recipe = AddRecipe(58301, V.WOTLK, Q.COMMON)
@@ -1465,7 +1465,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43350, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Fireworks -- 58302
 	recipe = AddRecipe(58302, V.WOTLK, Q.COMMON)
@@ -1473,7 +1473,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43351, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Conjure Familiar -- 58306
 	recipe = AddRecipe(58306, V.WOTLK, Q.COMMON)
@@ -1481,7 +1481,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43359, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Arcane Language -- 58308
 	recipe = AddRecipe(58308, V.WOTLK, Q.COMMON)
@@ -1489,7 +1489,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43364, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Contemplation -- 58311
 	recipe = AddRecipe(58311, V.WOTLK, Q.COMMON)
@@ -1497,7 +1497,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43365, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Winged Vengeance -- 58312
 	recipe = AddRecipe(58312, V.WOTLK, Q.COMMON)
@@ -1505,7 +1505,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43366, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of the Mounted King -- 58314
 	recipe = AddRecipe(58314, V.WOTLK, Q.COMMON)
@@ -1513,7 +1513,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43340, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Seal of Blood -- 58315
 	recipe = AddRecipe(58315, V.WOTLK, Q.COMMON)
@@ -1521,7 +1521,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43368, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Fire From the Heavens -- 58316
 	recipe = AddRecipe(58316, V.WOTLK, Q.COMMON)
@@ -1529,7 +1529,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43369, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Shadow Ravens -- 58317
 	recipe = AddRecipe(58317, V.WOTLK, Q.COMMON)
@@ -1537,7 +1537,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43342, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Borrowed Time -- 58318
 	recipe = AddRecipe(58318, V.WOTLK, Q.COMMON)
@@ -1545,7 +1545,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43371, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Shackle Undead -- 58320
 	recipe = AddRecipe(58320, V.WOTLK, Q.COMMON)
@@ -1553,7 +1553,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43373, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Dark Archangel -- 58322
 	recipe = AddRecipe(58322, V.WOTLK, Q.COMMON)
@@ -1561,7 +1561,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43374, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Blurred Speed -- 58323
 	recipe = AddRecipe(58323, V.WOTLK, Q.COMMON)
@@ -1569,7 +1569,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43379, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Distract -- 58324
 	recipe = AddRecipe(58324, V.WOTLK, Q.COMMON)
@@ -1577,7 +1577,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43376, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Pick Lock -- 58325
 	recipe = AddRecipe(58325, V.WOTLK, Q.COMMON)
@@ -1585,7 +1585,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43377, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Pick Pocket -- 58326
 	recipe = AddRecipe(58326, V.WOTLK, Q.COMMON)
@@ -1593,7 +1593,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43343, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Safe Fall -- 58327
 	recipe = AddRecipe(58327, V.WOTLK, Q.COMMON)
@@ -1601,7 +1601,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43378, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Poisons -- 58328
 	recipe = AddRecipe(58328, V.WOTLK, Q.COMMON)
@@ -1609,7 +1609,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43380, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Astral Recall -- 58329
 	recipe = AddRecipe(58329, V.WOTLK, Q.COMMON)
@@ -1617,7 +1617,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43381, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Far Sight -- 58330
 	recipe = AddRecipe(58330, V.WOTLK, Q.COMMON)
@@ -1625,7 +1625,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43385, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of the Spectral Wolf -- 58332
 	recipe = AddRecipe(58332, V.WOTLK, Q.COMMON)
@@ -1633,7 +1633,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43386, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Totemic Encirclement -- 58333
 	recipe = AddRecipe(58333, V.WOTLK, Q.COMMON)
@@ -1641,7 +1641,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43388, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Unending Breath -- 58336
 	recipe = AddRecipe(58336, V.WOTLK, Q.COMMON)
@@ -1649,7 +1649,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43389, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Soul Consumption -- 58337
 	recipe = AddRecipe(58337, V.WOTLK, Q.COMMON)
@@ -1657,7 +1657,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43390, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Enslave Demon -- 58339
 	recipe = AddRecipe(58339, V.WOTLK, Q.COMMON)
@@ -1665,7 +1665,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43393, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Eye of Kilrogg -- 58340
 	recipe = AddRecipe(58340, V.WOTLK, Q.COMMON)
@@ -1673,7 +1673,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43391, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Soulwell -- 58341
 	recipe = AddRecipe(58341, V.WOTLK, Q.COMMON)
@@ -1681,7 +1681,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43394, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Mystic Shout -- 58342
 	recipe = AddRecipe(58342, V.WOTLK, Q.COMMON)
@@ -1689,7 +1689,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43395, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Bloodcurdling Shout -- 58343
 	recipe = AddRecipe(58343, V.WOTLK, Q.COMMON)
@@ -1697,7 +1697,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43396, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Gushing Wound -- 58345
 	recipe = AddRecipe(58345, V.WOTLK, Q.COMMON)
@@ -1705,7 +1705,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43398, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Unending Rage -- 58346
 	recipe = AddRecipe(58346, V.WOTLK, Q.COMMON)
@@ -1713,7 +1713,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43399, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Mighty Victory -- 58347
 	recipe = AddRecipe(58347, V.WOTLK, Q.COMMON)
@@ -1721,7 +1721,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43400, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Scroll of Agility -- 58472
 	recipe = AddRecipe(58472, V.WOTLK, Q.COMMON)
@@ -1865,8 +1865,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43725, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30713, 30715, 30716, 30717, 30721, 33603, 33615, 33638, 46716, 53415, 56065, 62327, 64691, 66355)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Outbreak -- 59339
 	recipe = AddRecipe(59339, V.WOTLK, Q.COMMON)
@@ -1874,7 +1873,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43826, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Corpse Explosion -- 59340
 	recipe = AddRecipe(59340, V.WOTLK, Q.COMMON)
@@ -1882,7 +1881,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43827, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Certificate of Ownership -- 59387
 	recipe = AddRecipe(59387, V.WOTLK, Q.COMMON)
@@ -2042,7 +2041,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43869, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Scroll of Recall II -- 60336
 	recipe = AddRecipe(60336, V.WOTLK, Q.COMMON)
@@ -2111,7 +2110,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45735, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Totemic Vigor -- 64247
 	recipe = AddRecipe(64247, V.WOTLK, Q.COMMON)
@@ -2119,7 +2118,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45778, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Life Tap -- 64248
 	recipe = AddRecipe(64248, V.WOTLK, Q.COMMON)
@@ -2127,7 +2126,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45785, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Crimson Banish -- 64250
 	recipe = AddRecipe(64250, V.WOTLK, Q.COMMON)
@@ -2135,7 +2134,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45789, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Master's Call -- 64253
 	recipe = AddRecipe(64253, V.WOTLK, Q.COMMON)
@@ -2143,7 +2142,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45733, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Victorious Throw -- 64255
 	recipe = AddRecipe(64255, V.WOTLK, Q.COMMON)
@@ -2151,7 +2150,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45793, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Barkskin -- 64256
 	recipe = AddRecipe(64256, V.WOTLK, Q.COMMON)
@@ -2159,7 +2158,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45623, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Deep Freeze -- 64257
 	recipe = AddRecipe(64257, V.WOTLK, Q.COMMON)
@@ -2167,7 +2166,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45740, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Cyclone -- 64258
 	recipe = AddRecipe(64258, V.WOTLK, Q.COMMON)
@@ -2175,7 +2174,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45622, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Binding Heal -- 64259
 	recipe = AddRecipe(64259, V.WOTLK, Q.COMMON)
@@ -2183,7 +2182,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45760, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Disguise -- 64260
 	recipe = AddRecipe(64260, V.WOTLK, Q.COMMON)
@@ -2191,7 +2190,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45768, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Deluge -- 64261
 	recipe = AddRecipe(64261, V.WOTLK, Q.COMMON)
@@ -2199,7 +2198,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45775, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Shamanistic Rage -- 64262
 	recipe = AddRecipe(64262, V.WOTLK, Q.COMMON)
@@ -2207,7 +2206,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45776, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Death Coil -- 64266
 	recipe = AddRecipe(64266, V.WOTLK, Q.COMMON)
@@ -2215,7 +2214,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45804, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Survival Instincts -- 64268
 	recipe = AddRecipe(64268, V.WOTLK, Q.COMMON)
@@ -2223,7 +2222,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45601, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Wild Growth -- 64270
 	recipe = AddRecipe(64270, V.WOTLK, Q.COMMON)
@@ -2231,7 +2230,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45602, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Tranquilizing Shot -- 64273
 	recipe = AddRecipe(64273, V.WOTLK, Q.COMMON)
@@ -2239,7 +2238,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45731, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Illusion -- 64276
 	recipe = AddRecipe(64276, V.WOTLK, Q.COMMON)
@@ -2247,7 +2246,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45738, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Beacon of Light -- 64277
 	recipe = AddRecipe(64277, V.WOTLK, Q.COMMON)
@@ -2255,7 +2254,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45741, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Leap of Faith -- 64281
 	recipe = AddRecipe(64281, V.WOTLK, Q.COMMON)
@@ -2263,7 +2262,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45755, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Mind Spike -- 64283
 	recipe = AddRecipe(64283, V.WOTLK, Q.COMMON)
@@ -2271,7 +2270,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45758, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Vendetta -- 64284
 	recipe = AddRecipe(64284, V.WOTLK, Q.COMMON)
@@ -2279,7 +2278,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45761, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Killing Spree -- 64285
 	recipe = AddRecipe(64285, V.WOTLK, Q.COMMON)
@@ -2287,7 +2286,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45762, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Feral Spirit -- 64288
 	recipe = AddRecipe(64288, V.WOTLK, Q.COMMON)
@@ -2295,7 +2294,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45771, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Riptide -- 64289
 	recipe = AddRecipe(64289, V.WOTLK, Q.COMMON)
@@ -2303,7 +2302,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45772, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Wind and Thunder -- 64295
 	recipe = AddRecipe(64295, V.WOTLK, Q.COMMON)
@@ -2311,7 +2310,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45790, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Death From Above -- 64296
 	recipe = AddRecipe(64296, V.WOTLK, Q.COMMON)
@@ -2319,7 +2318,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45792, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Dancing Rune Weapon -- 64297
 	recipe = AddRecipe(64297, V.WOTLK, Q.COMMON)
@@ -2327,7 +2326,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45799, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Dark Simulacrum -- 64298
 	recipe = AddRecipe(64298, V.WOTLK, Q.COMMON)
@@ -2343,7 +2342,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45806, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Spell Reflection -- 64302
 	recipe = AddRecipe(64302, V.WOTLK, Q.COMMON)
@@ -2351,7 +2350,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45795, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Cloak of Shadows -- 64303
 	recipe = AddRecipe(64303, V.WOTLK, Q.COMMON)
@@ -2359,7 +2358,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45769, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Aspect of the Cheetah -- 64304
 	recipe = AddRecipe(64304, V.WOTLK, Q.COMMON)
@@ -2367,7 +2366,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45732, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Stampeding Roar -- 64307
 	recipe = AddRecipe(64307, V.WOTLK, Q.COMMON)
@@ -2375,7 +2374,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45604, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Focused Mending -- 64309
 	recipe = AddRecipe(64309, V.WOTLK, Q.COMMON)
@@ -2383,7 +2382,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45757, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Unending Resolve -- 64311
 	recipe = AddRecipe(64311, V.WOTLK, Q.COMMON)
@@ -2391,7 +2390,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45783, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Intimidating Shout -- 64312
 	recipe = AddRecipe(64312, V.WOTLK, Q.COMMON)
@@ -2399,7 +2398,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45794, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Demonic Circle -- 64317
 	recipe = AddRecipe(64317, V.WOTLK, Q.COMMON)
@@ -2407,7 +2406,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45782, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Thunder Strike -- 68166
 	recipe = AddRecipe(68166, V.WOTLK, Q.COMMON)
@@ -2415,7 +2414,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(49084, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Runescroll of Fortitude -- 69385
 	recipe = AddRecipe(69385, V.WOTLK, Q.COMMON)
@@ -2431,7 +2430,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(50045, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Eternal Resolve -- 71102
 	recipe = AddRecipe(71102, V.WOTLK, Q.COMMON)
@@ -2439,7 +2438,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(50077, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Inferno Blast -- 94000
 	recipe = AddRecipe(94000, V.WOTLK, Q.COMMON)
@@ -2447,7 +2446,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(63539, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-------------------------------------------------------------------------------
 	-- Cataclysm.
@@ -2707,7 +2706,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(64493, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of the Predator -- 94404
 	recipe = AddRecipe(94404, V.CATA, Q.COMMON)
@@ -2715,7 +2714,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(67486, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Recklessness -- 94405
 	recipe = AddRecipe(94405, V.CATA, Q.COMMON)
@@ -2723,7 +2722,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(67483, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Vanish -- 94711
 	recipe = AddRecipe(94711, V.CATA, Q.COMMON)
@@ -2731,7 +2730,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(63420, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of the Treant -- 95215
 	recipe = AddRecipe(95215, V.CATA, Q.COMMON)
@@ -2739,7 +2738,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(68039, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Rapid Teleportation -- 95710
 	recipe = AddRecipe(95710, V.CATA, Q.COMMON)
@@ -2747,7 +2746,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(63416, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Protector of the Innocent -- 95825
 	recipe = AddRecipe(95825, V.CATA, Q.COMMON)
@@ -2755,7 +2754,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(66918, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Shadow -- 107907
 	recipe = AddRecipe(107907, V.CATA, Q.COMMON)
@@ -2763,7 +2762,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(77101, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-------------------------------------------------------------------------------
 	-- Mists of Pandaria.
@@ -2774,7 +2773,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(80581, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Ink of Dreams -- 111645
 	recipe = AddRecipe(111645, V.MOP, Q.COMMON)
@@ -2876,7 +2875,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(80584, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Righteous Retreat -- 112265
 	recipe = AddRecipe(112265, V.MOP, Q.COMMON)
@@ -2884,7 +2883,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(80585, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Bladed Judgment -- 112266
 	recipe = AddRecipe(112266, V.MOP, Q.COMMON)
@@ -2892,7 +2891,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(80586, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Crow Feast -- 112429
 	recipe = AddRecipe(112429, V.MOP, Q.COMMON)
@@ -2900,7 +2899,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(80587, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Burning Anger -- 112430
 	recipe = AddRecipe(112430, V.MOP, Q.COMMON)
@@ -2908,7 +2907,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(80588, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Nimble Brew -- 112437
 	recipe = AddRecipe(112437, V.MOP, Q.COMMON)
@@ -2916,7 +2915,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87880, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Paralysis -- 112440
 	recipe = AddRecipe(112440, V.MOP, Q.COMMON)
@@ -2924,7 +2923,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87897, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Life Cocoon -- 112442
 	recipe = AddRecipe(112442, V.MOP, Q.COMMON)
@@ -2932,7 +2931,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87895, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Touch of Karma -- 112444
 	recipe = AddRecipe(112444, V.MOP, Q.COMMON)
@@ -2940,7 +2939,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87900, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Leer of the Ox -- 112450
 	recipe = AddRecipe(112450, V.MOP, Q.COMMON)
@@ -2948,7 +2947,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87894, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Detox -- 112454
 	recipe = AddRecipe(112454, V.MOP, Q.COMMON)
@@ -2956,7 +2955,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87899, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Fortifying Brew -- 112457
 	recipe = AddRecipe(112457, V.MOP, Q.COMMON)
@@ -2964,15 +2963,15 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87893, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
-
-	-- Glyph of Targeted Expulsion -- 112458
+	-- Glyph of Detoxing -- 112458
 	recipe = AddRecipe(112458, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(380, 380, 390, 395, 400)
 	recipe:SetCraftedItem(87901, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Zen Flight -- 112460
 	recipe = AddRecipe(112460, V.MOP, Q.COMMON)
@@ -2980,7 +2979,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87890, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Water Roll -- 112461
 	recipe = AddRecipe(112461, V.MOP, Q.COMMON)
@@ -2988,7 +2987,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87889, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Crackling Tiger Lightning -- 112462
 	recipe = AddRecipe(112462, V.MOP, Q.COMMON)
@@ -2996,7 +2995,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87881, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Flying Serpent Kick -- 112463
 	recipe = AddRecipe(112463, V.MOP, Q.COMMON)
@@ -3004,7 +3003,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87882, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Honor -- 112464
 	recipe = AddRecipe(112464, V.MOP, Q.COMMON)
@@ -3012,7 +3011,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87883, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Jab -- 112465
 	recipe = AddRecipe(112465, V.MOP, Q.COMMON)
@@ -3020,7 +3019,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87884, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.TANK, F.MONK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Rising Tiger Kick -- 112466
 	recipe = AddRecipe(112466, V.MOP, Q.COMMON)
@@ -3028,7 +3027,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87885, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Spirit Roll -- 112468
 	recipe = AddRecipe(112468, V.MOP, Q.COMMON)
@@ -3036,7 +3035,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87887, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Fighting Pose -- 112469
 	recipe = AddRecipe(112469, V.MOP, Q.COMMON)
@@ -3044,7 +3043,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87888, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Tome of the Clear Mind -- 112883
 	recipe = AddRecipe(112883, V.MOP, Q.COMMON)
@@ -3067,7 +3066,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(81956, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Mass Exorcism -- 122030
 	recipe = AddRecipe(122030, V.MOP, Q.COMMON)
@@ -3075,7 +3074,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(83107, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of the Blazing Trail -- 123781
 	recipe = AddRecipe(123781, V.MOP, Q.COMMON)
@@ -3083,7 +3082,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(85221, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Aspect of the Beast -- 124442
 	recipe = AddRecipe(124442, V.MOP, Q.COMMON)
@@ -3091,7 +3090,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(85683, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Guard -- 124449
 	recipe = AddRecipe(124449, V.MOP, Q.COMMON)
@@ -3099,7 +3098,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(85691, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Zen Meditation -- 124451
 	recipe = AddRecipe(124451, V.MOP, Q.COMMON)
@@ -3107,7 +3106,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(85695, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Renewing Mist -- 124452
 	recipe = AddRecipe(124452, V.MOP, Q.COMMON)
@@ -3115,7 +3114,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(85696, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Surging Mist -- 124455
 	recipe = AddRecipe(124455, V.MOP, Q.COMMON)
@@ -3123,7 +3122,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(85699, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Touch of Death -- 124456
 	recipe = AddRecipe(124456, V.MOP, Q.COMMON)
@@ -3131,7 +3130,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(85700, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Transcendence -- 124457
 	recipe = AddRecipe(124457, V.MOP, Q.COMMON)
@@ -3139,7 +3138,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(84652, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Mind Flay -- 124459
 	recipe = AddRecipe(124459, V.MOP, Q.COMMON)
@@ -3147,7 +3146,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(79513, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Vampiric Embrace -- 124460
 	recipe = AddRecipe(124460, V.MOP, Q.COMMON)
@@ -3155,7 +3154,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(79515, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Shadow Word: Death -- 124461
 	recipe = AddRecipe(124461, V.MOP, Q.COMMON)
@@ -3163,7 +3162,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(79514, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of the Heavens -- 124466
 	recipe = AddRecipe(124466, V.MOP, Q.COMMON)
@@ -3171,7 +3170,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(79538, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Confession -- 126153
 	recipe = AddRecipe(126153, V.MOP, Q.COMMON)
@@ -3179,7 +3178,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(86541, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Holy Resurrection -- 126687
 	recipe = AddRecipe(126687, V.MOP, Q.COMMON)
@@ -3187,7 +3186,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87276, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of the Val'kyr -- 126696
 	recipe = AddRecipe(126696, V.MOP, Q.COMMON)
@@ -3195,7 +3194,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87277, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Shadowy Friends -- 126800
 	recipe = AddRecipe(126800, V.MOP, Q.COMMON)
@@ -3203,7 +3202,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87392, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Fetch -- 126801
 	recipe = AddRecipe(126801, V.MOP, Q.COMMON)
@@ -3211,7 +3210,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87393, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Origami Crane -- 126988
 	recipe = AddRecipe(126988, V.MOP, Q.COMMON)
@@ -3356,14 +3355,14 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(87902, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of the Cheetah -- 131152
 	recipe = AddRecipe(131152, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(525, 525, 595, 600, 605)
 	recipe:SetCraftedItem(89868, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of Gateway Attunement -- 135561
 	recipe = AddRecipe(135561, V.MOP, Q.COMMON)
@@ -3371,7 +3370,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(93202, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
-	
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Crafted Malevolent Gladiator's Medallion of Tenacity -- 146638
 	recipe = AddRecipe(146638, V.MOP, Q.UNCOMMON)
@@ -3388,7 +3387,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104046, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Regenerative Magic -- 148257
 	recipe = AddRecipe(148257, V.MOP, Q.UNCOMMON)
@@ -3396,7 +3395,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104048, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Divine Shield -- 148259
 	recipe = AddRecipe(148259, V.MOP, Q.UNCOMMON)
@@ -3404,7 +3403,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104050, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Hand of Sacrifice -- 148260
 	recipe = AddRecipe(148260, V.MOP, Q.COMMON)
@@ -3412,7 +3411,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104051, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Purging -- 148261
 	recipe = AddRecipe(148261, V.MOP, Q.UNCOMMON)
@@ -3420,7 +3419,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104052, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of the Skeleton -- 148266
 	recipe = AddRecipe(148266, V.MOP, Q.UNCOMMON)
@@ -3428,7 +3427,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104099, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of the Sprouting Mushroom -- 148268
 	recipe = AddRecipe(148268, V.MOP, Q.COMMON)
@@ -3436,7 +3435,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104102, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of One with Nature -- 148269
 	recipe = AddRecipe(148269, V.MOP, Q.UNCOMMON)
@@ -3444,7 +3443,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104103, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of the Unbound Elemental -- 148270
 	recipe = AddRecipe(148270, V.MOP, Q.UNCOMMON)
@@ -3452,7 +3451,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104104, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Evaporation -- 148271
 	recipe = AddRecipe(148271, V.MOP, Q.UNCOMMON)
@@ -3460,7 +3459,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104105, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Condensation -- 148272
 	recipe = AddRecipe(148272, V.MOP, Q.UNCOMMON)
@@ -3468,7 +3467,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104106, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MAGE)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of the Exorcist -- 148273
 	recipe = AddRecipe(148273, V.MOP, Q.UNCOMMON)
@@ -3476,7 +3475,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104107, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of Pillar of Light -- 148274
 	recipe = AddRecipe(148274, V.MOP, Q.UNCOMMON)
@@ -3484,7 +3483,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104108, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Angels -- 148275
 	recipe = AddRecipe(148275, V.MOP, Q.UNCOMMON)
@@ -3492,7 +3491,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104109, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of the Sha -- 148276
 	recipe = AddRecipe(148276, V.MOP, Q.UNCOMMON)
@@ -3500,7 +3499,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104120, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Inspired Hymns -- 148278
 	recipe = AddRecipe(148278, V.MOP, Q.UNCOMMON)
@@ -3508,7 +3507,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104122, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PRIEST)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Headhunting -- 148279
 	recipe = AddRecipe(148279, V.MOP, Q.UNCOMMON)
@@ -3516,7 +3515,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104123, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_JADEFIRE")
 
 	-- Glyph of Improved Distraction -- 148280
 	recipe = AddRecipe(148280, V.MOP, Q.UNCOMMON)
@@ -3524,7 +3523,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104124, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ROGUE)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Spirit Raptors -- 148281
 	recipe = AddRecipe(148281, V.MOP, Q.UNCOMMON)
@@ -3532,7 +3531,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104126, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
 
 	-- Glyph of Lingering Ancestors -- 148282
 	recipe = AddRecipe(148282, V.MOP, Q.UNCOMMON)
@@ -3540,7 +3539,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104127, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
 	-- Glyph of Spirit Wolf -- 148283
 	recipe = AddRecipe(148283, V.MOP, Q.UNCOMMON)
@@ -3548,7 +3547,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104127, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of Flaming Serpent -- 148284
 	recipe = AddRecipe(148284, V.MOP, Q.UNCOMMON)
@@ -3556,7 +3555,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104129, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of the Compy -- 148285
 	recipe = AddRecipe(148285, V.MOP, Q.UNCOMMON)
@@ -3564,7 +3563,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104130, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Elemental Familiars -- 148286
 	recipe = AddRecipe(148286, V.MOP, Q.UNCOMMON)
@@ -3572,7 +3571,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104131, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 
 	-- Glyph of Astral Fixation -- 148287
 	recipe = AddRecipe(148287, V.MOP, Q.UNCOMMON)
@@ -3580,7 +3579,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104133, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Rain of Frogs -- 148288
 	recipe = AddRecipe(148288, V.MOP, Q.UNCOMMON)
@@ -3588,7 +3587,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104134, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of the Raging Whirlwind -- 148289
 	recipe = AddRecipe(148289, V.MOP, Q.COMMON)
@@ -3596,7 +3595,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104135, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of the Subtle Defender -- 148290
 	recipe = AddRecipe(148290, V.MOP, Q.COMMON)
@@ -3604,7 +3603,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104136, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of the Watchful Eye -- 148291
 	recipe = AddRecipe(148291, V.MOP, Q.UNCOMMON)
@@ -3612,7 +3611,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104137, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-- Glyph of the Weaponmaster -- 148292
 	recipe = AddRecipe(148292, V.MOP, Q.UNCOMMON)
@@ -3620,7 +3619,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104138, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 
 	-- Glyph of the Lean Pack -- 148487
 	recipe = AddRecipe(148487, V.MOP, Q.UNCOMMON)
@@ -3628,7 +3627,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104270, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_ETHEREAL")
 
 	-- Glyph of Enduring Deceit -- 148489
 	recipe = AddRecipe(148489, V.MOP, Q.UNCOMMON)
@@ -3636,7 +3635,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(104276, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HUNTER)
-
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
 	-------------------------------------------------------------------------------
 	-- Warlords of Draenor.
