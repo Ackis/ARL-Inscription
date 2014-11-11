@@ -539,14 +539,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
 	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
-	-- Glyph of the Harsh Word -- 57021
-	recipe = AddRecipe(57021, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(385, 385, 390, 397, 405)
-	recipe:SetCraftedItem(41107, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.PALADIN)
-	
-
 	-- Glyph of Divine Protection -- 57022
 	recipe = AddRecipe(57022, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(80, 80, 90, 100, 110)
@@ -1122,14 +1114,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.SHAMAN)
 	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
-
-	-- Glyph of Totemic Recall -- 57244
-	recipe = AddRecipe(57244, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(235, 235, 240, 245, 250)
-	recipe:SetCraftedItem(41535, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.SHAMAN)
-	recipe:AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 
 	-- Glyph of the Lakestrider -- 57246
 	recipe = AddRecipe(57246, V.WOTLK, Q.COMMON)
@@ -3856,14 +3840,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
 	recipe:AddDiscovery("DISCOVERY_INSC_WARBINDER")
-
-	-- Glyph of Victory Roll -- 162836
-	recipe = AddRecipe(162836, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(300, 300, 300, 450, 600)
-	recipe:SetCraftedItem(110831, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
-	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Freedom Roll -- 162837
 	recipe = AddRecipe(162837, V.WOD, Q.COMMON)
