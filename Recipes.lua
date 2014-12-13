@@ -4423,6 +4423,14 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddVendor(77372, 79829, 87063, 87551)
 
+	-- Glyph of the Shapemender -- 178448
+	recipe = AddRecipe(178448, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(295, 295, 300, 450, 600)
+	recipe:SetCraftedItem(120300, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DRUID)
+	recipe:AddDiscovery("DISCOVERY_INSC_WARBINDER")
+
 	-- Warbinder's Ink -- 178497
 	recipe = AddRecipe(178497, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 600, 600, 600)
