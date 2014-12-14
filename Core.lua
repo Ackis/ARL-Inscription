@@ -19,21 +19,6 @@ private.addon = addon
 
 local module = addon:NewModule(MODULE_NAME)
 
-module.ITEM_FILTER_TYPES = {
-	INSCRIPTION_CREATED_ITEM = true,
-	INSCRIPTION_ITEM_ENHANCEMENT = true,
-	INSCRIPTION_MAJOR_GLYPH = true,
-	INSCRIPTION_MATERIALS = true,
-	INSCRIPTION_MINOR_GLYPH = true,
-	INSCRIPTION_OFF_HAND = true,
-	INSCRIPTION_STAFF = true,
-	INSCRIPTION_SCROLL = true,
-	INSCRIPTION_PET = true,
-	INSCRIPTION_TRINKET = true,
-	INSCRIPTION_RESEARCH = true,
-	INSCRIPTION_WAND = true,
-}
-
 function module:OnInitialize()
 	local defaults = {
 		profile = {
