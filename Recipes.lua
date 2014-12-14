@@ -633,7 +633,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42957, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+
 
 	-- Glyph of Evasion -- 57119
 	recipe = AddRecipe(57119, V.WOTLK, Q.COMMON)
@@ -721,7 +721,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42973, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.ROGUE)
-	
+
 
 	-- Glyph of Sprint -- 57133
 	recipe = AddRecipe(57133, V.WOTLK, Q.COMMON)
@@ -793,7 +793,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43430, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARRIOR)
-	
+
 
 	-- Glyph of Sweeping Strikes -- 57168
 	recipe = AddRecipe(57168, V.WOTLK, Q.COMMON)
@@ -881,7 +881,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42409, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.PRIEST)
-	
+
 
 	-- Glyph of Psychic Scream -- 57196
 	recipe = AddRecipe(57196, V.WOTLK, Q.COMMON)
@@ -921,7 +921,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(43533, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+
 
 	-- Glyph of the Geist -- 57209
 	recipe = AddRecipe(57209, V.WOTLK, Q.COMMON)
@@ -1081,7 +1081,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(41524, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SHAMAN)
-	
+
 
 	-- Glyph of Capacitor Totem -- 57235
 	recipe = AddRecipe(57235, V.WOTLK, Q.COMMON)
@@ -1225,7 +1225,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42459, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CASTER, F.WARLOCK)
-	
+
 
 	-- Glyph of Health Funnel -- 57265
 	recipe = AddRecipe(57265, V.WOTLK, Q.COMMON)
@@ -2334,7 +2334,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(45800, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DK)
-	
+
 
 	-- Glyph of Tranquil Grip -- 64300
 	recipe = AddRecipe(64300, V.WOTLK, Q.COMMON)
