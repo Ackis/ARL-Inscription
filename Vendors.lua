@@ -23,8 +23,15 @@ local Z = constants.ZONE_NAMES
 -- What we _really_ came here to see...
 -----------------------------------------------------------------------
 function module:InitializeVendors()
-	local function AddVendor(id_num, name, zone_name, x, y, faction)
-		addon.AcquireTypes.Vendor:AddEntity(id_num, name, zone_name, x, y, faction)
+	local function AddVendor(vendorID, vendorName, zoneName, coordX, coordY, faction)
+		addon.AcquireTypes.Vendor:AddEntity(module, {
+			coord_x = coordX,
+			coord_y = coordY,
+			faction = faction,
+			identifier = vendorID,
+			location = zoneName,
+			name = vendorName,
+		})
 	end
 
 	AddVendor(77372,	L["Eric Broadoak"],			Z.LUNARFALL,			 0.0,	 0.0,	"Alliance") -- Alliance Garrison
