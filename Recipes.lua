@@ -3388,6 +3388,14 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
 
+	-- Glyph of Blackout Kick -- 132167
+	recipe = AddRecipe(132167, V.MOP, Q.COMMON)
+	recipe:SetSkillLevels(525, 525, 605, 607, 610)
+	recipe:SetCraftedItem(90715, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MONK)
+	recipe:AddDiscovery("DISCOVERY_INSC_SHIMMERING")
+
 	-- Glyph of Gateway Attunement -- 135561
 	recipe = AddRecipe(135561, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(595, 595, 595, 600, 605)
