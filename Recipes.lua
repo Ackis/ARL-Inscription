@@ -4446,7 +4446,7 @@ function module:InitializeRecipes()
 	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Inferno Tarot -- 178248
-	recipe = AddRecipe(178248, V.WOD, Q.COMMON)
+	recipe = AddRecipe(178248, V.WOD, Q.UNCOMMON)
 	recipe:SetSkillLevels(600, 600, 700, 700, 700)
 	recipe:SetRecipeItem(120265, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(120263, "BIND_ON_EQUIP")
@@ -4455,7 +4455,7 @@ function module:InitializeRecipes()
 	recipe:AddVendor(77372, 79829, 87063, 87551)
 
 	-- Molten Tarot -- 178249
-	recipe = AddRecipe(178249, V.WOD, Q.COMMON)
+	recipe = AddRecipe(178249, V.WOD, Q.UNCOMMON)
 	recipe:SetSkillLevels(600, 600, 700, 700, 700)
 	recipe:SetRecipeItem(120266, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(120264, "BIND_ON_EQUIP")
