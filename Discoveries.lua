@@ -32,7 +32,6 @@ function module:InitializeDiscoveries()
 		})
 	end
 
-	AddDiscovery("DISCOVERY_INSC_AUTOLEARN")
 	AddDiscovery("DISCOVERY_INSC_BLACKFALLOW")
 	AddDiscovery("DISCOVERY_INSC_CELESTIAL")
 	AddDiscovery("DISCOVERY_INSC_DREAMS")
