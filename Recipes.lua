@@ -836,7 +836,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(42397, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_LIONS")
+	recipe:AddDiscovery("DISCOVERY_INSC_WARBINDER")
 
 	-- Glyph of Fear Ward -- 57185
 	recipe = AddRecipe(57185, V.WOTLK, Q.COMMON)
