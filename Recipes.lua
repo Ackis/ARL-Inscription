@@ -342,14 +342,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.DRUID)
 	recipe:AddDiscovery("DISCOVERY_INSC_MIDNIGHT")
 
-	-- Glyph of Untamed Stars -- 56959
-	recipe = AddRecipe(56959, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(220, 220, 225, 230, 235)
-	recipe:SetCraftedItem(40916, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
-	recipe:AddFilters(F.DRUID)
-	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
-
 	-- Glyph of Stars -- 56965
 	recipe = AddRecipe(56965, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(310, 310, 320, 325, 330)
@@ -3627,14 +3619,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.DK)
 	recipe:AddDiscovery("DISCOVERY_INSC_WARBINDER")
 
-	-- Glyph of Icy Runes -- 162807
-	recipe = AddRecipe(162807, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(295, 295, 300, 450, 600)
-	recipe:SetCraftedItem(110802, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
-	recipe:AddFilters(F.DK)
-	recipe:AddDiscovery("DISCOVERY_INSC_WARBINDER")
-
 	-- Glyph of Empowerment -- 162808
 	recipe = AddRecipe(162808, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(295, 295, 300, 450, 600)
@@ -4379,7 +4363,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(120266, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(120264, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
-	recipe:AddVendor(77372, 79829, 87063, 87551)
+	recipe:Retire()
 
 	-- Glyph of the Shapemender -- 178448
 	recipe = AddRecipe(178448, V.WOD, Q.COMMON)
@@ -4402,7 +4386,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122553, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(122542, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
-	recipe:AddVendor(91031, 91404)
+	recipe:Retire()
 
 	-- Powerful Ensorcelled Tarot -- 181421
 	recipe = AddRecipe(181421, V.WOD, Q.COMMON)
@@ -4410,7 +4394,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(122548, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(122543, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
-	recipe:AddVendor(91031, 91404)
+	recipe:Retire()
 
 	-- The Spirit of War -- 182125
 	recipe = AddRecipe(182125, V.WOD, Q.COMMON)
@@ -4459,6 +4443,104 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.DRUID)
 	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
+
+	-- Glyph of Ascendance -- 186239
+	recipe = AddRecipe(186239, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 300, 450, 600)
+	recipe:SetCraftedItem(127136, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.SHAMAN)
+	recipe:AddDiscovery("DISCOVERY_INSC_WARBINDER")
+
+	--Mighty Weapon Crystal -- 187494
+	recipe = AddRecipe(187494, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127728, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127717, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	--Mighty Ensorcelled Tarot -- 187495
+	recipe = AddRecipe(187495, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127723, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127718, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	-- Savage Weapon Crystal -- 187518
+	recipe = AddRecipe(187518, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127746, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127735, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	-- Savage Ensorcelled Tarot -- 187519
+	recipe = AddRecipe(187519, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127741, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127736, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	-- Mass Mill Frostweed -- 190381
+	recipe = AddRecipe(190381, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetRecipeItem(128409, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114931, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	-- Mass Mill Fireweed -- 190382
+	recipe = AddRecipe(190382, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetRecipeItem(128410, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114931, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	-- Mass Mill Gorgrond Flytrap -- 190383
+	recipe = AddRecipe(190383, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetRecipeItem(128411, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114931, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	-- Mass Mill Starflower -- 190384
+	recipe = AddRecipe(190384, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetRecipeItem(128412, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114931, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	-- Mass Mill Nagrand Arrowbloom -- 190385
+	recipe = AddRecipe(190385, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetRecipeItem(128413, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114931, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
+
+	-- Mass Mill Talador Orchid -- 190386
+	recipe = AddRecipe(190386, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetRecipeItem(128414, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114931, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(91031, 91404)
 
 	self.InitializeRecipes = nil
 end
