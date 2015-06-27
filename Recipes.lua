@@ -4256,7 +4256,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(118608, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(113183, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
-	recipe:AddVendor(77372, 79829, 87063, 87551)
+	recipe:Retire()
 
 	-- Volatile Crystal -- 166432
 	recipe = AddRecipe(166432, V.WOD, Q.UNCOMMON)
