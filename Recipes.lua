@@ -4423,10 +4423,11 @@ function module:InitializeRecipes()
 	-- Glyph of Ascendance -- 186239
 	recipe = AddRecipe(186239, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 300, 450, 600)
+	recipe:SetRecipeItem(127137, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(127136, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.SHAMAN)
-	recipe:AddDiscovery("DISCOVERY_INSC_WARBINDER")
+	recipe:AddMobDrop(92495)
 
 	--Mighty Weapon Crystal -- 187494
 	recipe = AddRecipe(187494, V.WOD, Q.COMMON)
