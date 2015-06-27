@@ -4329,7 +4329,7 @@ function module:InitializeRecipes()
 	recipe = AddRecipe(178248, V.WOD, Q.UNCOMMON)
 	recipe:SetSkillLevels(600, 600, 700, 700, 700)
 	recipe:SetRecipeItem(120265, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(120263, "BIND_ON_EQUIP")
+	recipe:SetCraftedItem(128018, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77372, 79829, 87063, 87551)
 
