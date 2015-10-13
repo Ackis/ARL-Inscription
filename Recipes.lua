@@ -4394,7 +4394,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(118060, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.MONK)
-	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
+	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
 	-- Glyph of Purification -- 182156
 	recipe = AddRecipe(182156, V.WOD, Q.COMMON)
@@ -4402,7 +4402,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(118064, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MAJOR_GLYPH")
 	recipe:AddFilters(F.PRIEST)
-	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
+	recipe:AddDiscovery("DISCOVERY_INSC_SEA")
 
 	-- Glyph of Purify Spirit -- 182157
 	recipe = AddRecipe(182157, V.WOD, Q.COMMON)
