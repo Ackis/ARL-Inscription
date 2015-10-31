@@ -2579,7 +2579,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(62056, "BIND_ON_EQUIP")
 	recipe:SetRequiredFaction("Alliance")
 	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
-	recipe:AddTrainer(30709, 30713, 30715, 30717, 33603, 53415, 66355, 85911, 86015)
+	recipe:AddTrainer(28702, 30709, 30713, 30715, 30717, 30721, 33603, 53415, 66355, 85911, 86015)
 
 	-- Scroll of Intellect IX -- 89368
 	recipe = AddRecipe(89368, V.CATA, Q.COMMON)
