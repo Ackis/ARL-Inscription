@@ -59,6 +59,8 @@ function module:InitializeTrainers()
 	AddTrainer(62327, "Scribe Rinji",		Z.THE_JADE_FOREST,		47.6, 35.0,	"Neutral")
 	AddTrainer(64691, "Lorewalker Huynh",		Z.VALE_OF_ETERNAL_BLOSSOMS, 	81.9, 29.3,	"Neutral")
 	AddTrainer(66355, "Master Marshall",		Z.KUN_LAI_SUMMIT,		50.6, 42.2,	"Neutral")
+	AddTrainer(79519, "Reshad",			Z.SPIRES_OF_ARAK,		51.6, 31.2,	"Neutral")
+	AddTrainer(81770, "Reshad",			Z.SPIRES_OF_ARAK,		48.6, 44.4,	"Neutral")
 	AddTrainer(85911, "Scribe Chi-Yuan",		Z.STORMSHIELD,			63.0, 33.7,	"Alliance")
 	AddTrainer(86015, "Joro'man",			Z.WARSPEAR,			77.0, 48.4,	"Horde")
 
