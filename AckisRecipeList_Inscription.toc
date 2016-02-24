@@ -1,4 +1,4 @@
-## Interface: 60200
+## Interface: 70000
 ## Title: Ackis Recipe List: Inscription
 ## Notes: Inscription data for Ackis Recipe List.
 ## Author: Ackis, Pompy, Ressy, Torhal
