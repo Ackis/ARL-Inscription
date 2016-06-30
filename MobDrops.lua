@@ -39,7 +39,6 @@ function module:InitializeMobDrops()
 	AddMob(26708,	L["Silverbrook Villager"],	Z.GRIZZLY_HILLS,	27.3, 33.9)
 	AddMob(27546,	L["Silverbrook Hunter"],	Z.GRIZZLY_HILLS,	37.5, 68.0)
 	AddMob(27676,	L["Silverbrook Defender"],	Z.GRIZZLY_HILLS,	24.6, 33.3)
-	AddMob(92495,	L["Soulslicer"],		Z.TANAAN_JUNGLE,	62.6, 72.2)
 
 	self.InitializeMobDrops = nil
 end
