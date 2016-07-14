@@ -42,7 +42,6 @@ function module:InitializeDiscoveries()
 	AddDiscovery("DISCOVERY_INSC_MOONGLOW")
 	AddDiscovery("DISCOVERY_INSC_SEA")
 	AddDiscovery("DISCOVERY_INSC_SHIMMERING")
-	AddDiscovery("DISCOVERY_INSC_WARBINDER")
 
 	self.InitializeDiscoveries = nil
 end
