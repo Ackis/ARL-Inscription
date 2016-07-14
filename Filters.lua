@@ -27,7 +27,6 @@ local L = LibStub("AceLocale-3.0"):GetLocale(constants.addon_name)
 module.ITEM_FILTER_TYPES = {
 	INSCRIPTION_CREATED_ITEM = true,
 	INSCRIPTION_ITEM_ENHANCEMENT = true,
-	INSCRIPTION_MAJOR_GLYPH = true,
 	INSCRIPTION_MATERIALS = true,
 	INSCRIPTION_MINOR_GLYPH = true,
 	INSCRIPTION_OFF_HAND = true,
@@ -57,7 +56,7 @@ function module:InitializeItemFilters(parent_panel)
 		inscription_off_hand	= { tt = L["FILTER_DESC_FORMAT"]:format(_G.SECONDARYHANDSLOT),	text = _G.SECONDARYHANDSLOT,	row = 1, col = 1 },
 		inscription_staff	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Staff"]), 		text = L["Staff"],		row = 1, col = 2 },
 		inscription_wand	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Wand"]), 		text = L["Wand"],		row = 2, col = 1 },
-		inscription_trinket	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Trinket"]),		text = L["Trinket"],		row = 2, col = 2 },
+		inscription_trinket	= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_TRINKET),	text = _G.INVTYPE_TRINKET,	row = 2, col = 2 },
 	}
 
 	armor_toggle:SetScript("OnClick", function(self, button)
@@ -105,7 +104,6 @@ function module:InitializeItemFilters(parent_panel)
 	local general_types = {
 		inscription_created_item	= { tt = L["FILTER_DESC_FORMAT"]:format(_G.NONEQUIPSLOT),	text = _G.NONEQUIPSLOT,		row = 1, col = 1 },
 		inscription_item_enhancement	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Item Enhancement"]),	text = L["Item Enhancement"],	row = 1, col = 2 },
-		inscription_major_glyph		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.MAJOR_GLYPHS), 	text = _G.MAJOR_GLYPHS,		row = 2, col = 1 },
 		inscription_materials		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Materials"]), 	text = L["Materials"],		row = 2, col = 2 },
 		inscription_minor_glyph		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.MINOR_GLYPHS), 	text = _G.MINOR_GLYPHS,		row = 3, col = 1 },
 		inscription_pet			= { tt = L["FILTER_DESC_FORMAT"]:format(_G.PETS),		text = _G.PETS,			row = 3, col = 2 },
