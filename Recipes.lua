@@ -1622,14 +1622,6 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77372, 79829, 87063, 87551)
 
-	-- Greater Weapon Crystal -- 166367
-	recipe = AddRecipe(166367, V.WOD, Q.UNCOMMON)
-	recipe:SetSkillLevels(600, 600, 700, 702, 705)
-	recipe:SetRecipeItem(118608, "BIND_ON_EQUIP")
-	recipe:SetCraftedItem(113183, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
-	recipe:Retire()
-
 	-- Volatile Crystal -- 166432
 	recipe = AddRecipe(166432, V.WOD, Q.UNCOMMON)
 	recipe:SetSkillLevels(600, 600, 700, 702, 705)
@@ -1697,36 +1689,12 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77372, 79829, 87063, 87551)
 
-	-- Greater Ensorcelled Tarot -- 178249
-	recipe = AddRecipe(178249, V.WOD, Q.UNCOMMON)
-	recipe:SetSkillLevels(600, 600, 700, 700, 700)
-	recipe:SetRecipeItem(120266, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(120264, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
-	recipe:Retire()
-
 	-- Warbinder's Ink -- 178497
 	recipe = AddRecipe(178497, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 600, 600, 600)
 	recipe:SetCraftedItem(113111, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
 	recipe:AddCustom("DRAENOR_DEFAULT")
-
-	-- Powerful Weapon Crystal -- 181420
-	recipe = AddRecipe(181420, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetRecipeItem(122553, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(122542, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
-	recipe:Retire()
-
-	-- Powerful Ensorcelled Tarot -- 181421
-	recipe = AddRecipe(181421, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetRecipeItem(122548, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(122543, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_ITEM_ENHANCEMENT")
-	recipe:Retire()
 
 	-- The Spirit of War -- 182125
 	recipe = AddRecipe(182125, V.WOD, Q.COMMON)
