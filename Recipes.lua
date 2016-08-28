@@ -1593,7 +1593,6 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(118605, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(113134, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_STAFF")
-	recipe:AddFilters(F.CASTER, F.HEALER)
 	recipe:AddVendor(77372, 79829, 87063, 87551)
 
 	-- Etched-Blade Warstaff -- 166359
@@ -1791,6 +1790,696 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(114931, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
 	recipe:AddVendor(91031, 91404)
+
+	-------------------------------------------------------------------------------
+	-- Legion.
+	-------------------------------------------------------------------------------
+
+	-- Darkmoon Card of the Legion -- 191659
+	recipe = AddRecipe(191659, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(128712, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
+	recipe:AddQuest(39957)
+
+	-- Scroll of Forgotten Knowledge -- 192802
+	recipe = AddRecipe(192802, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(128980, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
+	recipe:AddQuest(40052)
+
+	-- Steamy Romance Novel Kit -- 192804
+	recipe = AddRecipe(192804, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(129211, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
+	recipe:AddQuest(39956, 39960)
+
+	-- Vantus Rune: Ursoc -- 192808
+	recipe = AddRecipe(192808, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(128987, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(100497)
+
+	-- Vantus Rune: Nythendra -- 192809
+	recipe = AddRecipe(192809, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(128988, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(103160)
+
+	-- Vantus Rune: Il'gynoth, The Heart of Corruption -- 192810
+	recipe = AddRecipe(192810, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(128989, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(105393)
+
+	-- Vantus Rune: Dragons of Nightmare -- 192811
+	recipe = AddRecipe(192811, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(128990, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(102679)
+
+	-- Vantus Rune: Xavius -- 192812
+	recipe = AddRecipe(192812, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(128991, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(103769)
+
+	-- Vantus Rune: Elerethe Renferal -- 192813
+	recipe = AddRecipe(192813, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(128992, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(111000)
+--[[
+	-- Vantus Rune: Cenarius -- 192814
+	recipe = AddRecipe(192814, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(128993, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(113534)
+]]--
+	-- Vantus Rune: Skorpyron -- 192815
+	recipe = AddRecipe(192815, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128994, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(102263)
+
+	-- Vantus Rune: Chronomatic Anomaly -- 192816
+	recipe = AddRecipe(192816, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128995, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(104415)
+
+	-- Vantus Rune: Trilliax -- 192817
+	recipe = AddRecipe(192817, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128996, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(104288)
+
+	-- Vantus Rune: Spellblade Aluriel -- 192818
+	recipe = AddRecipe(192818, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128997, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(107699)
+
+	-- Vantus Rune: Tichondrius -- 192819
+	recipe = AddRecipe(192819, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128998, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(103685)
+
+	-- Vantus Rune: High Botanist Tel'arn -- 192820
+	recipe = AddRecipe(192820, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128999, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(104528)
+
+	-- Vantus Rune: Krosus -- 192821
+	recipe = AddRecipe(192821, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(129000, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(101002)
+
+	-- Vantus Rune: Star Augur Etraeus -- 192822
+	recipe = AddRecipe(192822, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(129001, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(103758)
+
+	-- Vantus Rune: Grand Magistrix Elisande -- 192823
+	recipe = AddRecipe(192823, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(129002, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(110965)
+
+	-- Vantus Rune: Gul'dan -- 192824
+	recipe = AddRecipe(192824, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(129003, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(105503)
+
+	-- Glyph of Ghostly Fade -- 192838
+	recipe = AddRecipe(192838, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(129017, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.PRIEST)
+	recipe:AddVendor(93544)
+
+	-- Glyph of Fel Imp -- 192839
+	recipe = AddRecipe(192839, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(129018, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.WARLOCK)
+	recipe:AddVendor(93544)
+
+	-- Glyph of Sparkles -- 192840
+	recipe = AddRecipe(192840, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(129019, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.MAGE)
+	recipe:AddVendor(93544)
+
+	-- Glyph of Blackout -- 192841
+	recipe = AddRecipe(192841, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(139358, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.ROGUE)
+	recipe:AddVendor(93544)
+
+	-- Glyph of the Sentinel -- 192842
+	recipe = AddRecipe(192842, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(129021, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.DRUID)
+	recipe:AddVendor(93544)
+
+	-- Glyph of Crackling Crane Lightning -- 192843
+	recipe = AddRecipe(192843, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(139338, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.MONK)
+	recipe:AddVendor(93544)
+
+	-- Glyph of the Spectral Raptor -- 192844
+	recipe = AddRecipe(192844, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(137287, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.SHAMAN)
+	recipe:AddVendor(93544)
+
+	-- Glyph of Stellar Flare -- 192845
+	recipe = AddRecipe(192845, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(137269, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.HUNTER)
+	recipe:AddVendor(93544)
+
+	-- Glyph of the Queen -- 192846
+	recipe = AddRecipe(192846, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(137293, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.PALADIN)
+	recipe:AddVendor(93544)
+
+	-- Glyph of the Wraith Walker -- 192848
+	recipe = AddRecipe(192848, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(139274, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.DK)
+	recipe:AddVendor(93544)
+
+	-- Glyph of Fel Touched Souls -- 192849
+	recipe = AddRecipe(192849, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(129028, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.DEMONHUNTER)
+	recipe:AddQuest(39935, 40057)
+
+	-- Glyph of Crackling Flames -- 192850
+	recipe = AddRecipe(192850, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(129029, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.DEMONHUNTER)
+	recipe:AddQuest(39940)
+
+	-- Glyph of Fallow Wings -- 192851
+	recipe = AddRecipe(192851, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(139417, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.DEMONHUNTER)
+	recipe:AddQuest(39938, 40060)
+
+	-- Glyph of Tattered Wings -- 192852
+	recipe = AddRecipe(192852, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetCraftedItem(139436, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.DEMONHUNTER)
+	recipe:AddQuest(39943)
+
+	-- Prophecy Tarot -- 192854
+	recipe = AddRecipe(192854, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128978, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_TRINKET")
+	recipe:AddQuest(39933)
+
+	-- Prophecy Tarot -- 192855
+	recipe = AddRecipe(192855, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128978, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_TRINKET")
+	recipe:AddQuest(39950)
+
+	-- Prophecy Tarot -- 192856
+	recipe = AddRecipe(192856, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(128978, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_TRINKET")
+	recipe:AddVendor(14847)
+
+	-- Darkmoon Card of the Legion -- 192859
+	recipe = AddRecipe(192859, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128712, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
+	recipe:AddVendor(14847)
+
+	-- Vantus Rune: Ursoc -- 192860
+	recipe = AddRecipe(192860, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128987, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(100497)
+
+	-- Vantus Rune: Nythendra -- 192861
+	recipe = AddRecipe(192861, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128988, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(103160)
+
+	-- Vantus Rune: Il'gynoth, The Heart of Corruption -- 192862
+	recipe = AddRecipe(192862, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128989, "BIND_ON_EQUIP")
+	recipe:AddFilters(F.RAID)
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(105393)
+
+	-- Vantus Rune: Dragons of Nightmare -- 192863
+	recipe = AddRecipe(192863, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Xavius -- 192864
+	recipe = AddRecipe(192864, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Elerethe Renferal -- 192865
+	recipe = AddRecipe(192865, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Cenarius -- 192866
+	recipe = AddRecipe(192866, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Skorpyron -- 192867
+	recipe = AddRecipe(192867, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Chronomatic Anomaly -- 192868
+	recipe = AddRecipe(192868, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Trilliax -- 192869
+	recipe = AddRecipe(192869, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Spellblade Aluriel -- 192870
+	recipe = AddRecipe(192870, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Tichondrius -- 192871
+	recipe = AddRecipe(192871, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: High Botanist Tel'arn -- 192872
+	recipe = AddRecipe(192872, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Krosus -- 192873
+	recipe = AddRecipe(192873, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Star Augur Etraeus -- 192874
+	recipe = AddRecipe(192874, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Grand Magistrix Elisande -- 192875
+	recipe = AddRecipe(192875, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Gul'dan -- 192876
+	recipe = AddRecipe(192876, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Darkmoon Card of the Legion -- 192890
+	recipe = AddRecipe(192890, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Ursoc -- 192891
+	recipe = AddRecipe(192891, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(128987, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddQuest(41665)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Vantus Rune: Nythendra -- 192892
+	recipe = AddRecipe(192892, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128988, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddQuest(41666)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Vantus Rune: Il'gynoth, The Heart of Corruption -- 192893
+	recipe = AddRecipe(192893, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(128989, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddQuest(41668)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Vantus Rune: Dragons of Nightmare -- 192894
+	recipe = AddRecipe(192894, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Xavius -- 192895
+	recipe = AddRecipe(192895, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Elerethe Renferal -- 192896
+	recipe = AddRecipe(192896, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Cenarius -- 192897
+	recipe = AddRecipe(192897, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Skorpyron -- 192898
+	recipe = AddRecipe(192898, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Chronomatic Anomaly -- 192899
+	recipe = AddRecipe(192899, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Trilliax -- 192900
+	recipe = AddRecipe(192900, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Spellblade Aluriel -- 192901
+	recipe = AddRecipe(192901, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Tichondrius -- 192902
+	recipe = AddRecipe(192902, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: High Botanist Tel'arn -- 192903
+	recipe = AddRecipe(192903, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Krosus -- 192904
+	recipe = AddRecipe(192904, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Star Augur Etraeus -- 192905
+	recipe = AddRecipe(192905, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Grand Magistrix Elisande -- 192906
+	recipe = AddRecipe(192906, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Gul'dan -- 192907
+	recipe = AddRecipe(192907, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Aqual Mark -- 209510
+	recipe = AddRecipe(209510, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Straszan Mark -- 209511
+	recipe = AddRecipe(209511, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Mill Aethril -- 209658
+	recipe = AddRecipe(209658, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Mill Dreamleaf -- 209659
+	recipe = AddRecipe(209659, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Mill Foxflower -- 209660
+	recipe = AddRecipe(209660, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Mill Fjarnskaggl -- 209661
+	recipe = AddRecipe(209661, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Mill Starlight Rose -- 209662
+	recipe = AddRecipe(209662, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Mill Felwort -- 209664
+	recipe = AddRecipe(209664, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Mass Mill Yseralline Seeds -- 210116
+	recipe = AddRecipe(210116, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Songs of Battle -- 210653
+	recipe = AddRecipe(210653, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Songs of Peace -- 210654
+	recipe = AddRecipe(210654, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Songs of the Legion -- 210656
+	recipe = AddRecipe(210656, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Unwritten Legend -- 222408
+	recipe = AddRecipe(222408, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Songs of the Horde -- 223940
+	recipe = AddRecipe(223940, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Songs of the Alliance -- 223941
+	recipe = AddRecipe(223941, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Cracked Ice -- 225522
+	recipe = AddRecipe(225522, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Blood Wraith -- 225523
+	recipe = AddRecipe(225523, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Chilled Shell -- 225524
+	recipe = AddRecipe(225524, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Crimson Shell -- 225525
+	recipe = AddRecipe(225525, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Unholy Wraith -- 225526
+	recipe = AddRecipe(225526, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Fel Wings -- 225527
+	recipe = AddRecipe(225527, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Fel-Enemies -- 225528
+	recipe = AddRecipe(225528, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Mana Touched Souls -- 225529
+	recipe = AddRecipe(225529, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Shadow-Enemies -- 225530
+	recipe = AddRecipe(225530, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Doe -- 225531
+	recipe = AddRecipe(225531, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Feral Chameleon -- 225532
+	recipe = AddRecipe(225532, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Forest Path -- 225533
+	recipe = AddRecipe(225533, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Storm -- 225534
+	recipe = AddRecipe(225534, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Arachnophobia -- 225535
+	recipe = AddRecipe(225535, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Nesingwary's Nemeses -- 225536
+	recipe = AddRecipe(225536, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Bullseye -- 225537
+	recipe = AddRecipe(225537, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Dire Stable -- 225538
+	recipe = AddRecipe(225538, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Goblin Anti-Grav Flare -- 225539
+	recipe = AddRecipe(225539, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Headhunter -- 225540
+	recipe = AddRecipe(225540, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Hook -- 225541
+	recipe = AddRecipe(225541, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Skullseye -- 225542
+	recipe = AddRecipe(225542, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Trident -- 225543
+	recipe = AddRecipe(225543, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Polymorphic Proportions -- 225545
+	recipe = AddRecipe(225545, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Smolder -- 225546
+	recipe = AddRecipe(225546, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Yu'lon's Grace -- 225547
+	recipe = AddRecipe(225547, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Burnout -- 225548
+	recipe = AddRecipe(225548, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Flash Bang -- 225549
+	recipe = AddRecipe(225549, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Critterhex -- 225550
+	recipe = AddRecipe(225550, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Flickering -- 225551
+	recipe = AddRecipe(225551, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Pebbles -- 225552
+	recipe = AddRecipe(225552, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Inquisitor's Eye -- 225554
+	recipe = AddRecipe(225554, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Observer -- 225555
+	recipe = AddRecipe(225555, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Shivarra -- 225556
+	recipe = AddRecipe(225556, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Terrorguard -- 225557
+	recipe = AddRecipe(225557, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Voidlord -- 225558
+	recipe = AddRecipe(225558, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Blazing Savior -- 225560
+	recipe = AddRecipe(225560, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Codex of the Tranquil Mind -- 226248
+	recipe = AddRecipe(226248, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Tome of the Tranquil Mind -- 227043
+	recipe = AddRecipe(227043, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Codex of the Tranquil Mind -- 227239
+	recipe = AddRecipe(227239, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Codex of the Tranquil Mind -- 227240
+	recipe = AddRecipe(227240, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Falling Thunder -- 228381
+	recipe = AddRecipe(228381, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
 
 	self.InitializeRecipes = nil
 end
