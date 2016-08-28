@@ -35,6 +35,7 @@ module.ITEM_FILTER_TYPES = {
 	INSCRIPTION_PET = true,
 	INSCRIPTION_TRINKET = true,
 	INSCRIPTION_RESEARCH = true,
+	INSCRIPTION_VANTUS_RUNE = true,
 	INSCRIPTION_WAND = true,
 }
 
@@ -104,6 +105,7 @@ function module:InitializeItemFilters(parent_panel)
 	local general_types = {
 		inscription_created_item	= { tt = L["FILTER_DESC_FORMAT"]:format(_G.NONEQUIPSLOT),	text = _G.NONEQUIPSLOT,		row = 1, col = 1 },
 		inscription_item_enhancement	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Item Enhancement"]),	text = L["Item Enhancement"],	row = 1, col = 2 },
+		inscription_vantus_rune		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Vantus Rune"]), 	text = L["Vantus Rune"],	row = 2, col = 1 },
 		inscription_materials		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Materials"]), 	text = L["Materials"],		row = 2, col = 2 },
 		inscription_minor_glyph		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.MINOR_GLYPHS), 	text = _G.MINOR_GLYPHS,		row = 3, col = 1 },
 		inscription_pet			= { tt = L["FILTER_DESC_FORMAT"]:format(_G.PETS),		text = _G.PETS,			row = 3, col = 2 },
