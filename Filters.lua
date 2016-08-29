@@ -34,6 +34,7 @@ module.ITEM_FILTER_TYPES = {
 	INSCRIPTION_SCROLL = true,
 	INSCRIPTION_PET = true,
 	INSCRIPTION_TRINKET = true,
+	INSCRIPTION_RELIC = true,
 	INSCRIPTION_RESEARCH = true,
 	INSCRIPTION_VANTUS_RUNE = true,
 	INSCRIPTION_WAND = true,
@@ -111,6 +112,7 @@ function module:InitializeItemFilters(parent_panel)
 		inscription_pet			= { tt = L["FILTER_DESC_FORMAT"]:format(_G.PETS),		text = _G.PETS,			row = 3, col = 2 },
 		inscription_research		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Research"]),		text = L["Research"],		row = 4, col = 1 },
 		inscription_scroll		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Scroll"]), 		text = L["Scroll"],		row = 4, col = 2 },
+		inscription_relic		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.INVTYPE_RELIC), 	text = _G.INVTYPE_RELIC,	row = 5, col = 1 },
 	}
 
 	general_toggle:SetScript("OnClick", function(self, button)
