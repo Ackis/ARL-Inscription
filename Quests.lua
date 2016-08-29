@@ -41,14 +41,19 @@ function module:InitializeQuests()
 	AddQuest(39940,	Z.AZSUNA,			0.0,	0.0,	"Neutral") --Needs updating
 	AddQuest(39943,	Z.AZSUNA,			0.0,	0.0,	"Neutral") --Needs updating
 	AddQuest(39950,	Z.DALARAN_BROKENISLES,		41.4,	37.2,	"Neutral")
+	AddQuest(39954,	Z.DALARAN_BROKENISLES,		41.4,	37.2,	"Neutral")
 	AddQuest(39956,	Z.IRONFORGE,			76.8,	8.8,	"Alliance")
 	AddQuest(39957,	Z.DALARAN_BROKENISLES,		41.4,	37.2,	"Neutral")
 	AddQuest(39960,	Z.UNDERCITY,			77.0,	38.6,	"Horde")
 	AddQuest(40052,	Z.DALARAN_BROKENISLES,		41.4,	37.2,	"Neutral")
 	AddQuest(40057,	Z.AZSUNA,			43.2,	43.2,	"Horde")
 	AddQuest(40060,	Z.AZSUNA,			0.0,	0.0,	"Horde") --Needs updating
+	AddQuest(40065,	Z.AZSUNA,			43.2,	43.2,	"Neutral") --Needs updating
+	AddQuest(41663,	Z.AZSUNA,			0.0,	0.0,	"Neutral") --Needs updating
+	AddQuest(41664,	Z.VALSHARAH,			0.0,	0.0,	"Neutral") --Needs updating
 	AddQuest(41665,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
 	AddQuest(41666, Z.STORMHEIM,			0.0,	0.0,	"Neutral") --Needs updating
+	AddQuest(41667, Z.SURAMAR,			0.0,	0.0,	"Neutral") --Needs updating
 	AddQuest(41668, Z.DALARAN_BROKENISLES,		0.0,	0.0,	"Neutral") --Needs updating
 
 	self.InitializeQuests = nil
