@@ -27,6 +27,7 @@ local Z = constants.ZONE_NAMES
 
 local FAC = constants.FACTION_IDS
 local REP = constants.REP_LEVELS
+local PROF = constants.PROFESSION_SPELL_IDS
 
 module.Recipes = {}
 
@@ -2302,7 +2303,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 780, 790, 800)
 	recipe:SetCraftedItem(128995, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
---	recipe:AddProfession(PROF.FISHING)   --Needs updating
+	recipe:AddTradeSkill(PROF.FISHING, Z.AZSUNA)
 
 	-- Vantus Rune: Trilliax -- 192900
 	recipe = AddRecipe(192900, V.LEGION, Q.COMMON)
@@ -2352,7 +2353,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 760, 770, 780)
 	recipe:SetCraftedItem(129002, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
---	recipe:AddProfession(PROF.ARCHAEOLOGY) --Needs updating
+	recipe:AddCustom("ARCHAEOLOGY_HIGHBORNE")
 
 	-- Vantus Rune: Gul'dan -- 192907
 	recipe = AddRecipe(192907, V.LEGION, Q.COMMON)
