@@ -1871,7 +1871,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(128993, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.RAID)
 	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
-	recipe:AddMobDrop(113534)
+	recipe:AddMobDrop(104636)
 
 	-- Vantus Rune: Skorpyron -- 192815
 	recipe = AddRecipe(192815, V.LEGION, Q.COMMON)
@@ -2147,7 +2147,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(128993, "BIND_ON_EQUIP")
 	recipe:AddFilters(F.RAID)
 	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
-	recipe:AddMobDrop(113534)
+	recipe:AddMobDrop(104636)
 
 	-- Vantus Rune: Skorpyron -- 192867
 	recipe = AddRecipe(192867, V.LEGION, Q.COMMON)

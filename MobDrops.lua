@@ -56,7 +56,6 @@ function module:InitializeMobDrops()
 	AddMob(109943,	BN.ANA_MOUZ,				Z.SURAMAR,			0.0, 0.0) --Needs updating
 	AddMob(110965,	BN.GRAND_MAGISTRIX_ELISANDE,		Z.THE_NIGHTHOLD,		0.0, 0.0)
 	AddMob(111057,	L["The Rat King"],			Z.THE_ARCWAY,			0.0, 0.0)
-	AddMob(113534,	BN.CENARIUS,				Z.THE_EMERALD_NIGHTMARE,	0.0, 0.0)
 
 	self.InitializeMobDrops = nil
 end
