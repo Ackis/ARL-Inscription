@@ -2795,5 +2795,54 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.WARRIOR)
 	recipe:AddVendor(93544)
 
+	-- Vantus Rune: Odyn -- 229177
+	recipe = AddRecipe(229177, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Guarm -- 229178
+	recipe = AddRecipe(229178, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Helya -- 229179
+	recipe = AddRecipe(229179, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Odyn -- 229180
+	recipe = AddRecipe(229180, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Guarm -- 229181
+	recipe = AddRecipe(229181, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Helya -- 229182
+	recipe = AddRecipe(229182, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Odyn -- 229183
+	recipe = AddRecipe(229183, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Guarm -- 229184
+	recipe = AddRecipe(229184, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Vantus Rune: Helya -- 229185
+	recipe = AddRecipe(229185, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Crackling Ox Lightning -- 232274
+	recipe = AddRecipe(232274, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of the Trusted Steed -- 232275
+	recipe = AddRecipe(232275, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+	-- Glyph of Twilight Bloom -- 233278
+	recipe = AddRecipe(233278, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+
+
 	self.InitializeRecipes = nil
 end
