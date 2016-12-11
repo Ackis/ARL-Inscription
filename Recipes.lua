@@ -2975,16 +2975,30 @@ function module:InitializeRecipes()
 
 	-- Glyph of Crackling Ox Lightning -- 232274
 	recipe = AddRecipe(232274, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetRecipeItem(143615, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(129022, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.MONK)
+	recipe:AddWorldDrop(Z.KARAZHAN)
 
 	-- Glyph of the Trusted Steed -- 232275
 	recipe = AddRecipe(232275, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 700, 725, 750)
+	recipe:SetRecipeItem(143616, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(143588, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.PALADIN)
+	recipe:AddWorldDrop(Z.KARAZHAN)
 
 	-- Glyph of Twilight Bloom -- 233278
 	recipe = AddRecipe(233278, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-
+	recipe:SetSkillLevels(1, 1, 300, 450, 600)
+	recipe:SetRecipeItem(143751, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(143750, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.DRUID)
+	recipe:AddMobDrop(104528)
 
 	self.InitializeRecipes = nil
 end
