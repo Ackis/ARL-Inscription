@@ -47,7 +47,6 @@ function module:InitializeMobDrops()
 	AddMob(105503,	BN.GULDAN,				Z.THE_NIGHTHOLD,		0.0, 0.0)
 	AddMob(107699,	BN.SPELLBLADE_ALURIEL,			Z.THE_NIGHTHOLD,		0.0, 0.0)
 	AddMob(109943,	BN.ANA_MOUZ,				Z.SURAMAR,			0.0, 0.0) --Needs updating
-	AddMob(110321,	BN.NAZAK_THE_FIEND,			Z.SURAMAR,			0.0, 0.0) --Needs updating
 	AddMob(110965,	BN.GRAND_MAGISTRIX_ELISANDE,		Z.THE_NIGHTHOLD,		0.0, 0.0)
 	AddMob(111057,	L["The Rat King"],			Z.THE_ARCWAY,			0.0, 0.0)
 
