@@ -2427,6 +2427,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(1, 1, 760, 770, 780)
 	recipe:SetCraftedItem(129003, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddMobDrop(105503)
 --	recipe:AddQuest() --Needs updating
 
 	-- Aqual Mark -- 209510
