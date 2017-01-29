@@ -1023,6 +1023,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_STAFF")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddTrainer(26916, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355, 79519, 81770, 85911, 86015, 92195)
+
 	-- Forged Documents -- 86654
 	recipe = AddRecipe(86654, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 510, 522, 535)
