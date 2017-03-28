@@ -39,6 +39,8 @@ function module:InitializeVendors()
 	AddVendor(93544,	L["Jang Quillpaw"],			Z.DALARAN_BROKENISLES,		41.2,	36.8,	"Neutral")
 	AddVendor(94100,	L["Lucas Sigmund"],			Z.HIGHMOUNTAIN,			40.0,	52.4,	"Neutral")
 	AddVendor(106887,	L["Cravitz Lorent"],			Z.DALARAN_BROKENISLES,		47.0,	28.8,	"Neutral")
+	AddVendor(120414,	L["Captain Ruysantos"],			Z.BROKEN_SHORE,			42.1,	58.9,	"Neutral")
+	AddVendor(120898,	L["Warmage Kath'leen"],			Z.BROKEN_SHORE,			44.4,	62.3,	"Neutral")
 
 	self.InitializeVendors = nil
 end

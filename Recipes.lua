@@ -2846,6 +2846,15 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.WARLOCK)
 	recipe:AddWorldDrop(Z.BROKEN_ISLES)
 
+	-- Glyph of Wrathguard -- 225559
+	recipe = AddRecipe(225559, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 745, 770)
+	recipe:SetRecipeItem(141067, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(139315, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.WARLOCK)
+	recipe:AddVendor(120898)
+
 	-- Glyph of the Blazing Savior -- 225560
 	recipe = AddRecipe(225560, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 725, 750)
@@ -2996,6 +3005,38 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.DRUID)
 	recipe:AddMobDrop(104528)
+
+	-- Vantus Rune: Tomb of Sargeras -- 238577
+	recipe = AddRecipe(238577, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetRecipeItem(146411, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(146406, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddWorldDrop(Z.TOMB_OF_SARGERAS)
+
+	-- Vantus Rune: Tomb of Sargeras -- 238578 -- Needs updating
+	recipe = AddRecipe(238578, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetRecipeItem(146412, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(146406, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddWorldDrop(Z.TOMB_OF_SARGERAS)
+
+	-- Vantus Rune: Tomb of Sargeras -- 238579
+	recipe = AddRecipe(238579, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(146413, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(146406, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddWorldDrop(Z.TOMB_OF_SARGERAS)
+
+	-- Glyph of the Shadow Succubus -- 240272 -- Needs updating
+	recipe = AddRecipe(240272, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 745, 770)
+	recipe:SetRecipeItem(147120, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(147119, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.WARLOCK)
 
 	self.InitializeRecipes = nil
 end
