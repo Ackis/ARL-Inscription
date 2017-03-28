@@ -2889,6 +2889,16 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.INSTANCE)
 	recipe:AddCustom("LEGION_BOSSES")
 
+--[[  Stupid recipe I hate you
+	-- Tome of the Clear Mind -- 227561
+	recipe = AddRecipe(227561, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 600, 620, 640)
+	recipe:SetRecipeItem(141642, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(141640, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
+	recipe:AddVendor(78564, 79774, 88228, 88223, 91031, 91404)
+]]--
+
 	-- Glyph of Falling Thunder -- 228381
 	recipe = AddRecipe(228381, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 725, 750)
