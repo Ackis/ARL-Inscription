@@ -2806,10 +2806,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.SHAMAN)
 	recipe:AddWorldDrop(Z.BROKEN_ISLES)
 
-	-- Glyph of the Abyssal -- 225553
-	recipe = AddRecipe(225553, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-
 	-- Glyph of the Inquisitor's Eye -- 225554
 	recipe = AddRecipe(225554, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 725, 750)
