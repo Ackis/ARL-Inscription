@@ -48,7 +48,7 @@ function module:InitializeMobDrops()
 	AddMob(109943,	BN.ANA_MOUZ,				Z.SURAMAR,			31.7, 66.4)
 	AddMob(110965,	BN.GRAND_MAGISTRIX_ELISANDE,		Z.THE_NIGHTHOLD,		0.0, 0.0)
 	AddMob(111057,	L["The Rat King"],			Z.THE_ARCWAY,			0.0, 0.0)
-
+	AddMob(117269,	BN.KILJAEDEN,				Z.TOMB_OF_SARGERAS,		0.0, 0.0)
 
 	self.InitializeMobDrops = nil
 end

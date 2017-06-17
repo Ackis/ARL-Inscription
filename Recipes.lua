@@ -1461,6 +1461,14 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.PALADIN)
 	recipe:AddDiscovery("DISCOVERY_INSC_DREAMS")
 
+	-- Glyph of Angels -- 148275
+	recipe = AddRecipe(148275, V.MOP, Q.UNCOMMON)
+	recipe:SetSkillLevels(500, 500, 595, 600, 605)
+	recipe:SetCraftedItem(149755, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.PRIEST)
+	recipe:AddWorldDrop(Z.PANDARIA)
+
 	-- Glyph of the Sha -- 148276
 	recipe = AddRecipe(148276, V.MOP, Q.UNCOMMON)
 	recipe:SetSkillLevels(500, 500, 595, 600, 605)
@@ -3020,13 +3028,13 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
 	recipe:AddWorldDrop(Z.TOMB_OF_SARGERAS)
 
-	-- Vantus Rune: Tomb of Sargeras -- 238578 -- Needs updating
+	-- Vantus Rune: Tomb of Sargeras -- 238578
 	recipe = AddRecipe(238578, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 760, 770, 780)
 	recipe:SetRecipeItem(146412, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(146406, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
-	recipe:AddWorldDrop(Z.TOMB_OF_SARGERAS)
+	recipe:AddMobDrop(117269)
 
 	-- Vantus Rune: Tomb of Sargeras -- 238579
 	recipe = AddRecipe(238579, V.LEGION, Q.COMMON)
@@ -3036,13 +3044,32 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
 	recipe:AddWorldDrop(Z.TOMB_OF_SARGERAS)
 
-	-- Glyph of the Shadow Succubus -- 240272 -- Needs updating
+	-- Glyph of the Shadow Succubus -- 240272
 	recipe = AddRecipe(240272, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 745, 770)
 	recipe:SetRecipeItem(147120, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(147119, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.WARLOCK)
+	recipe:AddCustom("KISS_SYAITH")
+
+	-- Glyph of Ember Shards -- 246982
+	recipe = AddRecipe(246982, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 745, 770)
+	recipe:SetRecipeItem(151539, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151538, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.WARLOCK)
+	recipe:AddMobDrop(117269)
+
+	-- Glyph of Floating Shards -- 246984
+	recipe = AddRecipe(246984, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 745, 770)
+	recipe:SetRecipeItem(151541, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151540, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.WARLOCK)
+	recipe:AddVendor(120898)
 
 	self.InitializeRecipes = nil
 end
