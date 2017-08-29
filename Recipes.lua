@@ -3053,6 +3053,7 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.WARLOCK)
 	recipe:AddCustom("KISS_SYAITH")
 
+--[[ Removed
 	-- Glyph of Ember Shards -- 246982
 	recipe = AddRecipe(246982, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 745, 770)
@@ -3061,7 +3062,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.WARLOCK)
 	recipe:AddMobDrop(117269)
-
+]]--
 	-- Glyph of Floating Shards -- 246984
 	recipe = AddRecipe(246984, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 745, 770)
@@ -3070,6 +3071,74 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.WARLOCK)
 	recipe:AddVendor(120898)
+
+	-- Glyph of Fel-Touched Shards -- 246999
+	recipe = AddRecipe(246999, V.LEGION, Q.RARE)
+	recipe:SetSkillLevels(1, 1, 720, 745, 770)
+	recipe:SetRecipeItem(151543, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151542, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.WARLOCK)
+	recipe:AddVendor(127151)
+
+	-- Vantus Rune: Antorus, the Burning Throne -- 247614
+	recipe = AddRecipe(247614, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151654, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151610, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddWorldDrop(Z.ANTORUS__THE_BURNING_THRONE)
+
+	-- Vantus Rune: Antorus, the Burning Throne -- 247615
+	recipe = AddRecipe(247615, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151655, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151610, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddWorldDrop(Z.ANTORUS__THE_BURNING_THRONE)
+
+	-- Vantus Rune: Antorus, the Burning Throne -- 247616
+	recipe = AddRecipe(247616, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(151656, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151610, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_VANTUS_RUNE")
+	recipe:AddWorldDrop(Z.ANTORUS__THE_BURNING_THRONE)
+
+	-- Mass Mill Astral Glory -- 247861
+	recipe = AddRecipe(247861, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 1, 1, 1)
+	recipe:SetRecipeItem(152725, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(129034, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
+	recipe:AddVendor(127151)
+
+	-- Glyph of the Lightspawn -- 254227
+	recipe = AddRecipe(254227, V.LEGION, Q.UNCOMMON)
+	recipe:SetSkillLevels(500, 500, 720, 745, 770)
+	recipe:SetRecipeItem(153032, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(153031, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.PRIEST)
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.FRIENDLY, 127120)
+
+	-- Glyph of the Voidling -- 254231
+	recipe = AddRecipe(254231, V.LEGION, Q.UNCOMMON)
+	recipe:SetSkillLevels(500, 500, 720, 745, 770)
+	recipe:SetRecipeItem(153034, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(153033, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.PRIEST)
+	recipe:AddMobDrop(126887)
+
+	-- Glyph of Dark Absolution -- 254238
+	recipe = AddRecipe(254238, V.LEGION, Q.RARE)
+	recipe:SetSkillLevels(500, 500, 720, 745, 770)
+	recipe:SetRecipeItem(153037, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(153036, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
+	recipe:AddFilters(F.PRIEST)
+	recipe:AddWorldDrop(Z.THE_SEAT_OF_THE_TRIUMVIRATE)
 
 	self.InitializeRecipes = nil
 end
