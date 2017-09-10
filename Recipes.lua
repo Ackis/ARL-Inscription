@@ -3079,7 +3079,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(151542, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.WARLOCK)
-	recipe:AddVendor(127151)
+	recipe:AddMobDrop(126946)
 
 	-- Vantus Rune: Antorus, the Burning Throne -- 247614
 	recipe = AddRecipe(247614, V.LEGION, Q.COMMON)
@@ -3111,7 +3111,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(152725, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(129034, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
-	recipe:AddVendor(127151)
+	recipe:AddRepVendor(FAC.ARGUSSIAN_REACH, REP.FRIENDLY, 127151)
 
 	-- Glyph of the Lightspawn -- 254227
 	recipe = AddRecipe(254227, V.LEGION, Q.UNCOMMON)
