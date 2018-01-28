@@ -125,7 +125,7 @@ function module:InitializeRecipes()
 
 	-- Scroll of Intellect VII -- 50603
 	recipe = AddRecipe(50603, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(360, 360, 365, 370, 375)
+	recipe:SetSkillLevels(285, 285, 295, 300, 305)
 	recipe:SetCraftedItem(37091, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_SCROLL")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -181,7 +181,7 @@ function module:InitializeRecipes()
 
 	-- Scroll of Versatility VII -- 50610
 	recipe = AddRecipe(50610, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(355, 355, 360, 365, 370)
+	recipe:SetSkillLevels(280, 280, 290, 295, 300)
 	recipe:SetCraftedItem(37097, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_SCROLL")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -232,7 +232,7 @@ function module:InitializeRecipes()
 
 	-- Scroll of Stamina VII -- 50619
 	recipe = AddRecipe(50619, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 355, 360, 365)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(37093, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_SCROLL")
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355, 79519, 81770, 85911, 86015, 92195)
@@ -400,14 +400,14 @@ function module:InitializeRecipes()
 
 	-- Ink of the Sea -- 57715
 	recipe = AddRecipe(57715, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 350, 350, 355)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(43126, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355, 79519, 81770, 85911, 86015, 92195)
 
 	-- Snowfall Ink -- 57716
 	recipe = AddRecipe(57716, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 375, 375, 380)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(43127, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355, 79519, 81770, 85911, 86015, 92195)
@@ -534,7 +534,7 @@ function module:InitializeRecipes()
 
 	-- Scroll of Agility VII -- 58482
 	recipe = AddRecipe(58482, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 375, 380, 385)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(43463, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_SCROLL")
 	recipe:AddFilters(F.DPS)
@@ -598,7 +598,7 @@ function module:InitializeRecipes()
 
 	-- Scroll of Strength VII -- 58490
 	recipe = AddRecipe(58490, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(365, 365, 370, 375, 380)
+	recipe:SetSkillLevels(290, 290, 300, 305, 310)
 	recipe:SetCraftedItem(43465, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_SCROLL")
 	recipe:AddFilters(F.DPS)
@@ -774,7 +774,7 @@ function module:InitializeRecipes()
 
 	-- Scroll of Recall III -- 60337
 	recipe = AddRecipe(60337, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 350, 350, 355)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(44315, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_SCROLL")
 	recipe:AddTrainer(26916, 26959, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355, 79519, 81770, 85911, 86015, 92195)
@@ -818,7 +818,7 @@ function module:InitializeRecipes()
 
 	-- Twilight Tome -- 64053
 	recipe = AddRecipe(64053, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 375, 387, 400)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(45849, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_OFF_HAND")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -875,7 +875,7 @@ function module:InitializeRecipes()
 
 	-- Blackfallow Ink -- 86004
 	recipe = AddRecipe(86004, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 440, 445, 450)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(61978, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_MATERIALS")
 	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355, 79519, 81770, 85911, 86015, 92195)
@@ -916,7 +916,7 @@ function module:InitializeRecipes()
 
 	-- Mysterious Fortune Card -- 86609
 	recipe = AddRecipe(86609, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 460, 467, 475)
+	recipe:SetSkillLevels(375, 375, 385, 390, 395)
 	recipe:SetCraftedItem(60838, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
 	recipe:AddTrainer(26916, 26977, 26995, 28702, 30706, 30709, 30710, 30711, 30713, 30715, 30716, 30717, 30721, 30722, 33603, 33615, 33638, 33679, 46716, 53415, 56065, 62327, 64691, 66355, 79519, 81770, 85911, 86015, 92195)
@@ -1042,7 +1042,7 @@ function module:InitializeRecipes()
 
 	-- Scroll of Intellect IX -- 89368
 	recipe = AddRecipe(89368, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(445, 445, 450, 455, 460)
+	recipe:SetSkillLevels(370, 370, 380, 385, 390)
 	recipe:SetCraftedItem(63305, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_SCROLL")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -1081,7 +1081,7 @@ function module:InitializeRecipes()
 
 	-- Scroll of Protection IX -- 89373
 	recipe = AddRecipe(89373, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 455, 460, 465)
+	recipe:SetSkillLevels(375, 375, 385, 390, 395)
 	recipe:SetCraftedItem(63308, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("INSCRIPTION_SCROLL")
 	recipe:AddFilters(F.TANK)
@@ -2902,16 +2902,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.INSTANCE)
 	recipe:AddCustom("LEGION_BOSSES")
 
---[[  Stupid recipe I hate you
-	-- Tome of the Clear Mind -- 227561
-	recipe = AddRecipe(227561, V.LEGION, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 600, 620, 640)
-	recipe:SetRecipeItem(141642, "BIND_ON_PICKUP")
-	recipe:SetCraftedItem(141640, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("INSCRIPTION_CREATED_ITEM")
-	recipe:AddVendor(78564, 79774, 88228, 88223, 91031, 91404)
-]]--
-
 	-- Glyph of Falling Thunder -- 228381
 	recipe = AddRecipe(228381, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 700, 725, 750)
@@ -3053,7 +3043,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.WARLOCK)
 	recipe:AddCustom("KISS_SYAITH")
 
---[[ Removed
 	-- Glyph of Ember Shards -- 246982
 	recipe = AddRecipe(246982, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 745, 770)
@@ -3062,7 +3051,7 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("INSCRIPTION_MINOR_GLYPH")
 	recipe:AddFilters(F.WARLOCK)
 	recipe:AddMobDrop(117269)
-]]--
+
 	-- Glyph of Floating Shards -- 246984
 	recipe = AddRecipe(246984, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 720, 745, 770)
